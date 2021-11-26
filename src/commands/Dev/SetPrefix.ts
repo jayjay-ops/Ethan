@@ -6,7 +6,7 @@ import { IParsedArgs, ISimplifiedMessage } from '../../typings'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'setprefix',
+            command: 'sᴇᴛᴘʀᴇғɪx',
             description: 'Will replace the old prefix with the given term',
             category: 'dev',
             dm: true,
