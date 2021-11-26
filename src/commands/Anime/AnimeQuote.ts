@@ -7,7 +7,7 @@ import axios from 'axios'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'animequote',
+            command: 'ᴀɴɪᴍᴇǫᴜᴏᴛᴇ',
             description: 'random anime quote.',
             aliases: ['aq'],
             category: 'anime',
