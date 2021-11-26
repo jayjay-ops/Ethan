@@ -12,6 +12,7 @@ export default class Command extends BaseCommand {
             dm: true,
             usage: `${client.config.prefix}eval [JS CODE]`,
             modsOnly: true,
+            aliases: ['eval'],
             baseXp: 0
         })
     }
