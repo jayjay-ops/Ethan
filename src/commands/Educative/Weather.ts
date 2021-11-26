@@ -10,7 +10,7 @@ export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
             command: 'ᴡᴇᴀᴛʜᴇʀ',
-            aliases: ['wthr'],
+            aliases: ['weather'],
             description: 'Gives you the weather of the given state or city. ',
             category: 'educative',
             usage: `${client.config.prefix}weather [place_name]`,
