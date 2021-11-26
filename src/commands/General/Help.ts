@@ -13,7 +13,7 @@ export default class Command extends BaseCommand {
             description: 'Displays the help menu or shows the info of the command provided',
             category: 'general',
             usage: `${client.config.prefix}help (command_name)`,
-            aliases: ['help'],
+            aliases: ['help', 'h'],
         })
     }
 
@@ -38,7 +38,7 @@ export default class Command extends BaseCommand {
             let text = `\n漫~*'¨¯¨'*舞~舞*'¨¯¨·~漫\n\n ❥︎ 𝐻𝑒𝑦 𝐹𝑟𝑖𝑒𝑛𝑑, 𝐸𝑡𝒉𝑎𝑛-𝐵𝑜𝑡 𝑎𝑡 𝑦𝑜𝑢𝑟 𝑠𝑒𝑟𝑣𝑖𝑐𝑒\n\n漫~*'¨¯¨'*舞~舞*'¨¯¨·~漫\n\n\n『 𝐬𝒖𝒑𝒑𝒐𝒓𝒕 𝒖𝒔 𝒃𝒚 𝒇𝒐𝒍𝒍𝒐𝒘𝒊𝒏𝒈 𝒖𝒔 𝒐𝒏 𝒊𝒏𝒔𝒕𝒂𝒈𝒓𝒂𝒎 ➬ https://www.instagram.com/jayjay_ops 』\n\n\n\n`
             const keys = Object.keys(categories).sort((a, b) => a.localeCompare(b))
             for (const key of keys)
-                text += `${this.emojis[keys.indexOf(key)]} \`\`\`⊰᯽⊱┈──╌❊ ${this.client.util.capitalize(key)} ❊╌──┈⊰᯽⊱\`\`\`\n\n➣ *${categories[
+                text += `${this.emojis[keys.indexOf(key)]} \`\`\`⊰⊱┈─╌❊ ${this.client.util.capitalize(key)} ❊╌─┈⊰⊱\`\`\`\n\n➣ *${categories[
                     key
                 ]
                     .map((command) => command.config?.command)
