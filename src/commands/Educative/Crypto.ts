@@ -8,7 +8,7 @@ export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
             command: 'ᴄʀʏᴘᴛᴏ',
-            aliases: ['cr', 'coins'],
+            aliases: ['cr', 'coins', 'crypto'],
             description: 'Get Crypto Prices\n',
             category: 'educative',
             usage: `${client.config.prefix}crypto (Coin/Currency) (Currency/Coin) (count of 1st param)`,
