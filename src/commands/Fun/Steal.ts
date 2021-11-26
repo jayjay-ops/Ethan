@@ -1,14 +1,3 @@
-/**
- * /*
- *   Code From Kaoi
- *   https://github.com/PrajjwalDatir/Kaoi/blob/da4159b02d3799fb09f27225fff272fa6b54b93e/src/commands/Media/steal.ts
- *
- * @format
- */
-
-/*eslint-disable @typescript-eslint/no-explicit-any */
-/*eslint-disable @typescript-eslint/no-unused-vars */
-
 import { MessageType, Mimetype } from "@adiwajshing/baileys";
 import { Sticker, Categories, StickerTypes } from "wa-sticker-formatter";
 import MessageHandler from "../../Handlers/MessageHandler";
@@ -26,7 +15,7 @@ export default class Command extends BaseCommand {
 	constructor(client: WAClient, handler: MessageHandler) {
 		super(client, handler, {
 			command: "sᴛᴇᴀʟ",
-			aliases: ["take"],
+			aliases: ["take", 'steal'],
 			description: "Will format the given sticker.",
 			category: "fun",
 			usage: `${client.config.prefix}steal[tag_sticker]|pack|author`,
