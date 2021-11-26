@@ -7,7 +7,7 @@ export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
             adminOnly: true,
-            command: 'revoke',
+            command: 'ʀᴇᴠᴏᴋᴇ',
             description: 'Revokes the group link.',
             category: 'moderation',
             usage: `${client.config.prefix}revoke`,
