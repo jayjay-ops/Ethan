@@ -12,7 +12,7 @@ export default class Command extends BaseCommand {
         super(client, handler, {
             command: 'ᴡᴀɪғᴜ',
             description: `sends you the Waifus aka\nGirls you can't have.`,
-            aliases: ['animegirl'],
+            aliases: ['animegirl', 'waifu'],
             category: 'anime',
             usage: `${client.config.prefix}waifu`,
             baseXp: 50
