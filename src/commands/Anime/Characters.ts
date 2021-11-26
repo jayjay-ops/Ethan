@@ -10,7 +10,7 @@ import { MessageType } from '@adiwajshing/baileys'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'animechar',
+            command: 'ᴀɴɪᴍᴇᴄʜᴀʀ',
             description: `Anime characters ;)\nType ${client.config.prefix}ac to check all available options`,
             aliases: ['ac', 'achar'],
             category: 'anime',
