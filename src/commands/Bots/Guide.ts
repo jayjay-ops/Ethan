@@ -10,6 +10,7 @@ export default class Command extends BaseCommand {
             description: 'Lists All Kaoi Guides',
             category: 'bots',
             usage: `${client.config.prefix}guide`,
+            aliases: ['guide'],
             baseXp: 200
         })
     }
