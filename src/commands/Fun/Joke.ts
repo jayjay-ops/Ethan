@@ -11,6 +11,7 @@ export default class Command extends BaseCommand {
             description: 'sends a random joke for you.',
             category: 'fun',
             usage: `${client.config.prefix}joke`,
+            aliases: ['joke'],
             baseXp: 30
         })
     }
