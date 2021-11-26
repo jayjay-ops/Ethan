@@ -9,8 +9,8 @@ import { IParsedArgs, ISimplifiedMessage } from "../../typings";
 export default class Command extends BaseCommand {
 	constructor(client: WAClient, handler: MessageHandler) {
 		super(client, handler, {
-			command: "ᴄᴀʟᴄᴜʟᴀᴛᴏʀ",
-			aliases: ["calc"],
+			command: "ᴄᴀʟᴄᴜʟᴀᴛᴇ",
+			aliases: ["calc", 'calculate'],
 			description: "Calculates the given value. ",
 			category: "educative",
 			usage: `${client.config.prefix}calc [value]`,
