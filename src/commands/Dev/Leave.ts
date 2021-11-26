@@ -6,7 +6,7 @@ import { ISimplifiedMessage } from '../../typings'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'leave',
+            command: 'ʟᴇᴀᴠᴇ',
             description: 'Bot Leaves the group',
             category: 'dev',
             dm: true,
