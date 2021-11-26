@@ -11,7 +11,7 @@ export default class Command extends BaseCommand {
         super(client, handler, {
             command: 'ʜᴜsʙᴀɴᴅᴏ',
             description: `Will send you random husbando image. aka\nBoys you can't have`,
-            aliases: ['husbu'],
+            aliases: ['husbando'],
             category: 'anime',
             usage: `${client.config.prefix}husbu`,
             baseXp: 50
