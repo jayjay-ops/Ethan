@@ -11,6 +11,7 @@ export default class Command extends BaseCommand {
             description: `Let's React`,
             aliases: [
                 'react',
+                'reaction'
                 'cry',
                 'kiss',
                 'bully',
