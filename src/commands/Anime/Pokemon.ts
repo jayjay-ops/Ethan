@@ -9,7 +9,7 @@ import { MessageType } from '@adiwajshing/baileys'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'pokemon',
+            command: 'ᴘᴏᴋᴇᴍᴏɴ',
             description: `Gives you the data of the given pokemon.`,
             aliases: ['pkmn'],
             category: 'anime',
