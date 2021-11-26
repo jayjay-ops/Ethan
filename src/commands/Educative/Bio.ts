@@ -8,7 +8,7 @@ export default class Command extends BaseCommand {
         super(client, handler, {
             command: 'ʙɪᴏᴅᴀᴛᴇ',
             description: 'get a random biodata',
-            aliases: ['bio'],
+            aliases: ['bio', 'biodata'],
             category: 'educative',
             usage: `${client.config.prefix}biodata [name]`
         })
