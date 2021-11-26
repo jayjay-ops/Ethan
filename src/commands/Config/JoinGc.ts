@@ -10,6 +10,7 @@ export default class Command extends BaseCommand {
             description: 'Generally used to check if bot is Up',
             category: 'config',
             usage: `${client.config.prefix}requestjoin`,
+            aliases: ['requestjoin', 'joingc'],
             baseXp: 0
         })
     }
