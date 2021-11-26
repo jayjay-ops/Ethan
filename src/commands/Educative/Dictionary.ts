@@ -10,10 +10,10 @@ export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
             command: 'ᴅɪᴄᴛɪᴏɴᴀʀʏ/ᴍᴇᴀɴɪɴɢ',
-            aliases: ['dic', 'meaning', 'dictionary'],
+            aliases: ['dict', 'meaning', 'dictionary'],
             description: 'Gives you the meaning of the given word. ',
             category: 'educative',
-            usage: `${client.config.prefix}ur [Word you want to search about]`,
+            usage: `${client.config.prefix}meaning [Word you want to search about]`,
             baseXp: 50
         })
     }
