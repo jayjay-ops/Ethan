@@ -19,7 +19,7 @@ export default class Command extends BaseCommand {
 
     run = async (M: ISimplifiedMessage, parsedArgs: IParsedArgs): Promise<void> => {
             const n = [
-            './assets/videos/tribal.mp4'
+            './assets/videos/Ethan1.mp4'
             ]
             let becky = n[Math.floor(Math.random() * n.length)]
             if (!parsedArgs.joined) {
