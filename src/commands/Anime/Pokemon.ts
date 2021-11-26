@@ -11,7 +11,7 @@ export default class Command extends BaseCommand {
         super(client, handler, {
             command: 'ᴘᴏᴋᴇᴍᴏɴ',
             description: `Gives you the data of the given pokemon.`,
-            aliases: ['pkmn'],
+            aliases: ['pkmn', 'pokemon'],
             category: 'anime',
             usage: `${client.config.prefix}pokemon [name/id]`,
             baseXp: 50
