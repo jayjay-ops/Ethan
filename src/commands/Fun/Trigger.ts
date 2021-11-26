@@ -11,7 +11,7 @@ import { MessageType, Mimetype } from '@adiwajshing/baileys'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'trigger',
+            command: 'ᴛʀɪɢɢᴇʀ',
             description: 'Sends the triggered version of you',
             category: 'fun',
             usage: `${client.config.prefix}trigger [tag/caption image | @mention]`,
