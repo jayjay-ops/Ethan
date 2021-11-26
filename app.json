@@ -37,6 +37,10 @@
             "description": "Google API key for Google searches for MODS (Not Required)",
             "required": false
         },
+        "TENOR_API_KEY": {
+          "description": "A key used for gif searches",
+          "required": false
+      },
         "CHAT_BOT_URL": {
             "description": "BrainShop API Brain url",
             "required": false
