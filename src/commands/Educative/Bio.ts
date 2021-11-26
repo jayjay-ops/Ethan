@@ -6,7 +6,7 @@ import axios from 'axios'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'biodata',
+            command: 'ʙɪᴏᴅᴀᴛᴇ',
             description: 'get a random biodata',
             aliases: ['bio'],
             category: 'educative',
