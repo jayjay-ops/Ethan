@@ -10,7 +10,8 @@ export default class Command extends BaseCommand {
             description: 'Display the info',
             category: 'bots',
             usage: `${client.config.prefix}ethan`,
-            baseXp: 200
+            aliases: ['ethan'],
+            baseXp: 50
         })
     }
 
