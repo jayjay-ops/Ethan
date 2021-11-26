@@ -48,7 +48,7 @@ interface RepoInfo {
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'github',
+            command: 'ɢɪᴛʜᴜʙ',
             aliases: ['gh'],
             description: 'Get github information about a user/repo',
             category: 'internet',
