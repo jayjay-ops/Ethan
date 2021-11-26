@@ -9,7 +9,7 @@ import { MessageType } from '@adiwajshing/baileys'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'urbandictionary',
+            command: 'ᴜʀʙᴀɴᴅɪᴄᴛɪᴏɴᴀʀʏ',
             aliases: ['ur'],
             description: 'Gives you the definition of the given word. ',
             category: 'educative',
