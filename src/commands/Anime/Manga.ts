@@ -11,7 +11,7 @@ export default class Command extends BaseCommand {
         super(client, handler, {
             command: 'ᴍᴀɴɢᴀ',
             description: `Gives you the data of the given manga from MyAnimeList.`,
-            aliases: ['mnga'],
+            aliases: ['mnga', 'manga'],
             category: 'anime',
             usage: `${client.config.prefix}manga [title]`,
             baseXp: 50
