@@ -7,7 +7,7 @@ import jimp from 'jimp'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'blur',
+            command: 'ʙʟᴜʀ',
             description: 'Blurs the given image or pfp',
             category: 'media',
             usage: `${client.config.prefix}blur [(as caption | quote)[image] | @mention]`,
