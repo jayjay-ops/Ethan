@@ -7,7 +7,7 @@ import { IParsedArgs, ISimplifiedMessage } from '../../typings'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'status',
+            command: 'sᴛᴀᴛᴜs',
             description: 'Puts the text as status ',
             category: 'dev',
             dm: true,
