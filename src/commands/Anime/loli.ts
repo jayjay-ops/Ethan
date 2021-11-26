@@ -11,6 +11,7 @@ export default class Command extends BaseCommand {
             command: 'ʟᴏʟɪ',
             description: 'Will send you random loli image',
             category: 'anime',
+            aliases: ['loli'],
             usage: `${client.config.prefix}loli`
         })
     }
