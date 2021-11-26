@@ -6,7 +6,7 @@ import { ISimplifiedMessage } from '../../typings'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'join',
+            command: 'ᴊᴏɪɴ',
             description: 'Bot Joins the group',
             category: 'dev',
             dm: true,
