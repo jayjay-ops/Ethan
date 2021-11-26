@@ -12,6 +12,7 @@ export default class Command extends BaseCommand {
             dm: true,
             usage: `${client.config.prefix}enable [command]`,
             modsOnly: true,
+            aliases: ['enable'],
             baseXp: 0
         })
     }
