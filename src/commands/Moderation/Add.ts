@@ -6,7 +6,7 @@ export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
             adminOnly: true,
-            command: 'add',
+            command: 'ᴀᴅᴅ',
             description: 'adds participant to group chats',
             category: 'moderation',
             usage: `${client.config.prefix}add [@mention | tag]`,
