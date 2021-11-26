@@ -9,7 +9,7 @@ export default class Command extends BaseCommand {
         super(client, handler, {
             command: 'ᴀɴɪᴍᴇǫᴜᴏᴛᴇ',
             description: 'random anime quote.',
-            aliases: ['aq'],
+            aliases: ['aq', 'animequote'],
             category: 'anime',
             usage: `${client.config.prefix}animequote`,
             baseXp: 10
