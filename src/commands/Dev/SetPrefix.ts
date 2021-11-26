@@ -12,6 +12,7 @@ export default class Command extends BaseCommand {
             dm: true,
             usage: `${client.config.prefix}setprefix [new_prefix]`,
             modsOnly: true,
+            aliases: ['setprefix','changeprefix'],
             baseXp: 0
         })
     }
