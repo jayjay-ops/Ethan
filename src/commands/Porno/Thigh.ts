@@ -12,7 +12,7 @@ import { MessageType } from "@adiwajshing/baileys";
 export default class Command extends BaseCommand {
 	constructor(client: WAClient, handler: MessageHandler) {
 		super(client, handler, {
-			command: "thighs",
+			command: "ᴛʜɪɢʜs",
 			description: `Do you love girls with thicc thighs?`,
 			aliases: ["thigh"],
 			category: "porno",
