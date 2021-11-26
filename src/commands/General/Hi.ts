@@ -15,6 +15,6 @@ export default class Command extends BaseCommand {
     }
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
-        return void (await M.reply(`ðŸ‘¾ Hello ${M.sender.username}!`))
+        return void (await M.reply(`🤵 Hello ${M.sender.username}!`))
     }
 }
