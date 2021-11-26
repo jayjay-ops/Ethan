@@ -9,7 +9,7 @@ import { ISimplifiedMessage } from '../../typings'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'spotify',
+            command: 'sᴘᴏᴛɪғʏ',
             description: 'Downloads given spotify track and sends it as Audio',
             category: 'media',
             usage: `${client.config.prefix}spotify [URL]`,
