@@ -10,7 +10,7 @@ import CIG from 'chess-image-generator-ts'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'chess',
+            command: 'ᴄʜᴇss',
             description: 'Play Chess ♟️ on WhatsApp 🤯',
             category: 'games',
             usage: `${client.config.prefix}chess`,
