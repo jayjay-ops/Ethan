@@ -8,7 +8,7 @@ export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
             adminOnly: true,
-            command: 'close',
+            command: 'ᴄʟᴏsᴇ',
             description: 'Close the group for all participants. Only Admins can message',
             category: 'moderation',
             usage: `${client.config.prefix}close`,
