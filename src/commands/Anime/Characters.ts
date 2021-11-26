@@ -12,7 +12,7 @@ export default class Command extends BaseCommand {
         super(client, handler, {
             command: 'ᴀɴɪᴍᴇᴄʜᴀʀ',
             description: `Anime characters ;)\nType ${client.config.prefix}ac to check all available options`,
-            aliases: ['ac', 'achar'],
+            aliases: ['ac', 'achar', 'animechar'],
             category: 'anime',
             usage: `${client.config.prefix}ac (option)`,
             baseXp: 20
