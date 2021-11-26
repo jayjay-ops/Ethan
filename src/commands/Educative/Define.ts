@@ -20,7 +20,7 @@ export default class Command extends BaseCommand {
 
             command: 'ᴅᴇғɪɴᴇ',
 
-            aliases: ['d'],
+            aliases: ['d', 'define'],
 
             description: 'Gives you the defination of the given word. ',
 
