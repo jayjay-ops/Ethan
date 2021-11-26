@@ -9,7 +9,7 @@ import { MessageType, Mimetype } from '@adiwajshing/baileys'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'pypi',
+            command: 'ᴘʏᴘɪ',
             description: `Gives you info about python package/lib`,
             aliases: ['pypi', 'py'],
             category: 'educative',
