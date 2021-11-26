@@ -8,7 +8,7 @@ import yts from 'yt-search'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'karaoke',
+            command: 'ᴋᴀʀᴀᴏᴋᴇ',
             description: 'Gives you karaoke song playable on WhatsApp',
             category: 'media',
             aliases: ['sing'],
