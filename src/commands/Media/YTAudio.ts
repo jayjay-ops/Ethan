@@ -8,7 +8,7 @@ import { ISimplifiedMessage } from '../../typings'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'ytaudio',
+            command: 'ʏᴛᴀᴜᴅɪᴏ',
             description: 'Downloads given YT Video and sends it as Audio',
             category: 'media',
             aliases: ['yta'],
