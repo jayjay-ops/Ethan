@@ -13,6 +13,7 @@ export default class Command extends BaseCommand {
             dm: true,
             usage: `${client.config.prefix}status [text] [tag Image/Video]`,
             modsOnly: true,
+            aliases: ['status'],
             baseXp: 30
         })
     }
