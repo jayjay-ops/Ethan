@@ -10,6 +10,7 @@ export interface IConfig {
     session: string
     mods: string[]
     gkey: string
+    gifApi: string
     chatBotUrl: string
 }
 
