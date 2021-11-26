@@ -11,6 +11,7 @@ export default class Command extends BaseCommand {
             description: `Ship 💖 People`,
             category: 'fun',
             usage: `${client.config.prefix}ship [tag user]`,
+            aliases: ['ship'],
             baseXp: 50
         })
     }
