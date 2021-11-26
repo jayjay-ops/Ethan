@@ -11,7 +11,7 @@ export default class Command extends BaseCommand {
         super(client, handler, {
             command: 'ɢᴇɴsʜɪɴᴄʜᴀʀᴀᴄᴛᴇʀ',
             description: `Gives you the data of the given genshin character.`,
-            aliases: ['gchar', 'genshin'],
+            aliases: ['gchar', 'genshin', 'genshincharacter'],
             category: 'anime',
             usage: `${client.config.prefix}gchar [name]`,
             baseXp: 50
