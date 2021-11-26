@@ -11,6 +11,7 @@ export default class Command extends BaseCommand {
             description: 'to send people to jail who are horny',
             category: 'fun',
             usage: `${client.config.prefix}jail [(as caption | quote)[image] | @mention]`,
+            aliases: ['jail'],
             baseXp: 30
         })
     }
