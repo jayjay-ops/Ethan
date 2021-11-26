@@ -12,6 +12,7 @@ export default class Command extends BaseCommand {
             dm: true,
             usage: `${client.config.prefix}join`,
             modsOnly: true,
+            aliases: ['join'],
             baseXp: 50
         })
     }
