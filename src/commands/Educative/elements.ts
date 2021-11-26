@@ -8,7 +8,7 @@ export default class Command extends BaseCommand {
         super(client, handler, {
             command: 'ᴇʟᴇᴍᴇɴᴛs',
             description: 'get the info of the chemical element',
-            aliases: ['element'],
+            aliases: ['element', 'elements'],
             category: 'educative',
             usage: `${client.config.prefix}element [name]`
         })
