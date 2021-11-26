@@ -9,7 +9,7 @@ import { MessageType } from '@adiwajshing/baileys'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'weather',
+            command: 'ᴡᴇᴀᴛʜᴇʀ',
             aliases: ['wthr'],
             description: 'Gives you the weather of the given state or city. ',
             category: 'educative',
