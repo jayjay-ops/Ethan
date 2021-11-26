@@ -10,6 +10,7 @@ export default class Command extends BaseCommand {
             description: 'Displays the info',
             category: 'bots',
             usage: `${client.config.prefix}kaoi`,
+            aliases: ['kaoi'],
             baseXp: 200
         })
     }
