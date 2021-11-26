@@ -7,7 +7,7 @@ import axios from 'axios'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'crypto',
+            command: 'ᴄʀʏᴘᴛᴏ',
             aliases: ['cr', 'coins'],
             description: 'Get Crypto Prices\n',
             category: 'educative',
