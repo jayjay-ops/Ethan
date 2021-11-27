@@ -6,7 +6,7 @@ import { IParsedArgs, ISimplifiedMessage } from '../../typings'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'ᴅɪsᴀʙʟᴇ',
+            command: '➣ ᴅɪsᴀʙʟᴇ',
             description: 'Disables the given command from being used globally',
             category: 'config',
             dm: true,
