@@ -11,7 +11,7 @@ export default class Command extends BaseCommand {
         super(client, handler, {
             command: 'sᴜʙʀᴇʙ',
             description: 'Fetches post from reddit',
-            aliases: ['sr', 'reddit'],
+            aliases: ['sr', 'reddit', 'subred'],
             category: 'media',
             usage: `${client.config.prefix}subred [subredit_name]`,
             baseXp: 30
