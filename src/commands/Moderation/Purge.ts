@@ -11,6 +11,7 @@ export default class Command extends BaseCommand {
             description: 'Removes all group members',
             category: 'moderation',
             usage: `${client.config.prefix}purge`,
+            aliases: ['purge'],
             baseXp: 0
         })
     }
