@@ -12,7 +12,7 @@ export default class Command extends BaseCommand {
             command: 'ʟʏʀɪᴄs',
             description: 'Gives you lyrics with song playable on WhatsApp',
             category: 'media',
-            aliases: ['ly'],
+            aliases: ['ly', 'lyrics'],
             usage: `${client.config.prefix}yts [term]`,
             dm: true,
             baseXp: 20
