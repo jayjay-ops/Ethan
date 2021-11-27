@@ -6,7 +6,7 @@ import axios from 'axios'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'ᴄᴏᴠɪᴅ',
+            command: '➣ ᴄᴏᴠɪᴅ',
             description: 'get the covid-19 info of the current place',
             aliases: ['COVID','covid'],
             category: 'educative',
