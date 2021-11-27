@@ -6,7 +6,7 @@ import { ISimplifiedMessage } from '../../typings'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'ᴅᴇʟᴇᴛᴇ',
+            command: '➣ ᴅᴇʟᴇᴛᴇ',
             description: 'Deletes the quoted Message',
             aliases: ['del','delete'],
             category: 'general',
