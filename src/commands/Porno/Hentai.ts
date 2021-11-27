@@ -13,7 +13,7 @@ export default class Command extends BaseCommand {
             command: 'ʜᴇɴᴛᴀɪ',
             description: 'well....',
 
-            aliases: ['henati'],
+            aliases: ['henati', 'hentai'],
 
             category: 'porno',
 
