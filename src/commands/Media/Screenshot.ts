@@ -9,7 +9,7 @@ import { MessageType } from '@adiwajshing/baileys'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'sᴄʀᴇᴇɴsʜᴏᴛ',
+            command: '➣ sᴄʀᴇᴇɴsʜᴏᴛ',
             aliases: ['ss', 'ssweb', 'screenshot'],
             description: 'Gives you the screenshot of the given url. ',
             category: 'media',
