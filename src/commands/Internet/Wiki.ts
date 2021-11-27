@@ -14,7 +14,7 @@ export default class Command extends BaseCommand {
 
 	constructor(client: WAClient, handler: MessageHandler) {		super(client, handler, {
 
-			command: "ᴡɪᴋɪᴘᴇᴅɪᴀ",
+			command: "➣ ᴡɪᴋɪᴘᴇᴅɪᴀ",
 
 			aliases: ["wiki", 'wikipedia'],
 
