@@ -9,7 +9,7 @@ import { IParsedArgs, ISimplifiedMessage } from '../../typings'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'sᴜʙʀᴇʙ',
+            command: '➣ sᴜʙʀᴇʙ',
             description: 'Fetches post from reddit',
             aliases: ['sr', 'reddit', 'subred'],
             category: 'media',
