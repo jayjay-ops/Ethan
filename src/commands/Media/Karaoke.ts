@@ -11,7 +11,7 @@ export default class Command extends BaseCommand {
             command: 'ᴋᴀʀᴀᴏᴋᴇ',
             description: 'Gives you karaoke song playable on WhatsApp',
             category: 'media',
-            aliases: ['sing'],
+            aliases: ['sing', 'karaoke'],
             usage: `${client.config.prefix}karaoke [term]`,
             baseXp: 20
         })
