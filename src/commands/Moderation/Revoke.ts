@@ -11,6 +11,7 @@ export default class Command extends BaseCommand {
             description: 'Revokes the group link.',
             category: 'moderation',
             usage: `${client.config.prefix}revoke`,
+            aliases: ['revoke', 'resetlink'],
             baseXp: 0
         })
     }
