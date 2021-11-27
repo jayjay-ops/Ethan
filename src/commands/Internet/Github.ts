@@ -49,7 +49,7 @@ export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
             command: 'ɢɪᴛʜᴜʙ',
-            aliases: ['gh'],
+            aliases: ['gh', 'github', 'git'],
             description: 'Get github information about a user/repo',
             category: 'internet',
             usage: `${client.config.prefix}github`
