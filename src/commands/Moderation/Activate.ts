@@ -8,7 +8,7 @@ export default class Command extends BaseCommand {
         super(client, handler, {
             adminOnly: true,
             command: 'ᴀᴄᴛɪᴠᴀᴛᴇ',
-            aliases: ['act'],
+            aliases: ['act', 'activate'],
             description: 'activate certain features on group-chats',
             category: 'moderation',
             usage: `${client.config.prefix}activate [events | mod | safe | nsfw | cmd | invitelink]`,
