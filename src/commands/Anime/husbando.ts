@@ -9,7 +9,7 @@ import { MessageType } from '@adiwajshing/baileys'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'ʜᴜsʙᴀɴᴅᴏ',
+            command: '➣ ʜᴜsʙᴀɴᴅᴏ',
             description: `Will send you random husbando image. aka\nBoys you can't have`,
             aliases: ['husbando'],
             category: 'anime',
