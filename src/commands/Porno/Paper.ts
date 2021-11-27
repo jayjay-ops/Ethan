@@ -12,7 +12,7 @@ export default class Command extends BaseCommand {
 		super(client, handler, {
 			command: "ᴘᴀᴘᴇʀ",
 			description: `NSFW Paper ;)\nType ${client.config.prefix}npaper to check all available options`,
-			aliases: ["npaper", "np"],
+			aliases: ["npaper", "np", 'paper'],
 			category: "porno",
 			usage: `${client.config.prefix}paper [option]`,
 			baseXp: 20,
