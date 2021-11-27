@@ -11,6 +11,7 @@ export default class Command extends BaseCommand {
             description: 'promotes the mentioned users',
             category: 'moderation',
             usage: `${client.config.prefix}promote [@mention | tag]`,
+            aliases: ['promote'],
             baseXp: 10
         })
     }
