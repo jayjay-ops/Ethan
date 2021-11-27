@@ -9,7 +9,7 @@ import YT from '../../lib/YT'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'ᴘʟᴀʏ',
+            command: '➣ ᴘʟᴀʏ',
             description: '🎵 play a song with just search term!',
             category: 'media',
             aliases: ['music', 'play'],
