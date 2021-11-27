@@ -7,7 +7,7 @@ import { MessageType, Mimetype } from "@adiwajshing/baileys";
 export default class Command extends BaseCommand {
 	constructor(client: WAClient, handler: MessageHandler) {
 		super(client, handler, {
-			command: "ᴀɴᴀʟ",
+			command: "➣ ᴀɴᴀʟ",
 			description: `Know it yourself.`,
 			aliases: ["anal"],
 			category: "porno",
