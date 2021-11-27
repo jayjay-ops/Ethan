@@ -10,11 +10,11 @@ export default class Command extends BaseCommand {
 	constructor(client: WAClient, handler: MessageHandler) {
 		super(client, handler, {
 			command: "ᴛʀᴀɴsʟᴀᴛᴇ",
-			aliases: ["tr"],
+			aliases: ["tr", 'translate'],
 			description: "Will translate the given word to your selected language. ",
 			category: "internet",
 			usage: `${client.config.prefix}tr <code of the language that you want>|<word>\n\nExample: ${client.config.prefix}tr zh-cn|Hello`,
-			baseXp: 40,
+			baseXp: 20,
 		});
 	}
 
