@@ -8,7 +8,7 @@ export default class Command extends BaseCommand {
         super(client, handler, {
             command: 'ᴇᴠᴇʀʏᴏɴᴇ',
             description: 'Tags all users in group chat',
-            aliases: ['all', 'tagall'],
+            aliases: ['all', 'tagall', 'everyone'],
             category: 'general',
             usage: `${client.config.prefix}everyone`,
             adminOnly: true,
