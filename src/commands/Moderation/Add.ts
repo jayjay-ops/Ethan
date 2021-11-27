@@ -6,7 +6,7 @@ export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
             adminOnly: true,
-            command: '➣ ᴀᴅᴅ',
+            command: 'ᴀᴅᴅ',
             description: 'adds participant to group chats',
             category: 'moderation',
             usage: `${client.config.prefix}add [@mention | tag]`,
@@ -17,6 +17,7 @@ export default class Command extends BaseCommand {
 
     run = async (M: ISimplifiedMessage,parsedArgs: IParsedArgs): Promise<void> => {
         const number = parsedArgs.joined.replace(/(\D+/,'').toString();
+console.log(number) ;
         // let text = '*Action*\n\n'
         try{
         if (!M.groupMetadata?.admins?.includes(this.client.user.jid))
