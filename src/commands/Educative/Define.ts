@@ -18,7 +18,7 @@ export default class Command extends BaseCommand {
 
         super(client, handler, {
 
-            command: 'ᴅᴇғɪɴᴇ',
+            command: '➣ ᴅᴇғɪɴᴇ',
 
             aliases: ['d', 'define'],
 
