@@ -14,7 +14,7 @@ export default class Command extends BaseCommand {
             category: 'media',
             usage: `${client.config.prefix}spotify [URL]`,
             baseXp: 20,
-            aliases: ['sp']
+            aliases: ['sp', 'spotify']
         })
     }
 
