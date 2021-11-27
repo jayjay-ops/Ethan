@@ -12,7 +12,7 @@ export default class Command extends BaseCommand {
             command: 'ᴘʟᴀʏ',
             description: '🎵 play a song with just search term!',
             category: 'media',
-            aliases: ['music'],
+            aliases: ['music', 'play'],
             usage: `${client.config.prefix}play [term]`,
             baseXp: 30
         })
