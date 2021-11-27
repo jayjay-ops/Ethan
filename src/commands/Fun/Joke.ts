@@ -7,7 +7,7 @@ import axios from 'axios'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'ᴊᴏᴋᴇ',
+            command: '➣ ᴊᴏᴋᴇ',
             description: 'sends a random joke for you.',
             category: 'fun',
             usage: `${client.config.prefix}joke`,
