@@ -11,6 +11,7 @@ export default class Command extends BaseCommand {
             description: 'Blurs the given image or pfp',
             category: 'media',
             usage: `${client.config.prefix}blur [(as caption | quote)[image] | @mention]`,
+            aliases: ['blur'],
             baseXp: 30
         })
     }
