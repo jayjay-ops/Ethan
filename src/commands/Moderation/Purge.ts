@@ -7,7 +7,7 @@ export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
             adminOnly: true,
-            command: 'ᴘᴜʀɢᴇ',
+            command: '➣ ᴘᴜʀɢᴇ',
             description: 'Removes all group members',
             category: 'moderation',
             usage: `${client.config.prefix}purge`,
