@@ -7,7 +7,7 @@ import { IParsedArgs, ISimplifiedMessage } from '../../typings'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'ʀᴇᴀᴄᴛ',
+            command: '➣ ʀᴇᴀᴄᴛ',
             description: `Let's React`,
             aliases: [
                 'react',
