@@ -11,7 +11,7 @@ import request from "../../lib/request";
 export default class Command extends BaseCommand {
 	constructor(client: WAClient, handler: MessageHandler) {
 		super(client, handler, {
-			command: "ɢᴇᴛɢɪғ",
+			command: "➣ ɢᴇᴛɢɪғ",
 			description: "Will give you random gif of the given search term.",
 			category: "general",
 			usage: `${client.config.prefix}getgif [term]`,
