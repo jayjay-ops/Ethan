@@ -10,7 +10,7 @@ import { MessageType } from "@adiwajshing/baileys";
 export default class Command extends BaseCommand {
 	constructor(client: WAClient, handler: MessageHandler) {
 		super(client, handler, {
-			command: "ᴘᴀᴘᴇʀ",
+			command: "➣ ᴘᴀᴘᴇʀ",
 			description: `NSFW Paper ;)\nType ${client.config.prefix}npaper to check all available options`,
 			aliases: ["npaper", "np", 'paper'],
 			category: "porno",
