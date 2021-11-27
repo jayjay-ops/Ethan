@@ -9,7 +9,7 @@ import { getSong, getLyrics } from 'ultra-lyrics'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'ʟʏʀɪᴄs',
+            command: '➣ ʟʏʀɪᴄs',
             description: 'Gives you lyrics with song playable on WhatsApp',
             category: 'media',
             aliases: ['ly', 'lyrics'],
