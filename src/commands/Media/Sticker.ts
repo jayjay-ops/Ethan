@@ -8,7 +8,7 @@ import { IParsedArgs, ISimplifiedMessage } from '../../typings'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'sᴛɪᴄᴋᴇʀ',
+            command: '➣ sᴛɪᴄᴋᴇʀ',
             aliases: ['s', 'sticker'],
             description: 'Converts images/videos into stickers',
             category: 'media',
