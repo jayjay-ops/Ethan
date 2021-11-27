@@ -10,7 +10,7 @@ import { MessageType } from '@adiwajshing/baileys'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'ᴡᴀɪғᴜ',
+            command: '➣ ᴡᴀɪғᴜ',
             description: `sends you the Waifus aka\nGirls you can't have.`,
             aliases: ['animegirl', 'waifu'],
             category: 'anime',
