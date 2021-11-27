@@ -12,7 +12,7 @@ export default class Command extends BaseCommand {
         super(client, handler, {
             command: 'sᴇx-ɴᴇᴋᴏ',
             description: 'Will send you random nsfw neko image.',
-            aliases: ['n-neko'],
+            aliases: ['n-neko', 'sex-neko'],
             category: 'porno',
             usage: `${client.config.prefix}sex-neko`
         })
