@@ -9,7 +9,7 @@ import { MessageType } from '@adiwajshing/baileys'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'ᴅɪᴄᴛɪᴏɴᴀʀʏ/ᴍᴇᴀɴɪɴɢ',
+            command: '➣ ᴅɪᴄᴛɪᴏɴᴀʀʏ/ᴍᴇᴀɴɪɴɢ',
             aliases: ['dict', 'meaning', 'dictionary'],
             description: 'Gives you the meaning of the given word. ',
             category: 'educative',
