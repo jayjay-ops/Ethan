@@ -9,7 +9,7 @@ import { MessageType, Mimetype } from '@adiwajshing/baileys'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'ɢᴇɴsʜɪɴᴄʜᴀʀᴀᴄᴛᴇʀ',
+            command: '➣ ɢᴇɴsʜɪɴᴄʜᴀʀᴀᴄᴛᴇʀ',
             description: `Gives you the data of the given genshin character.`,
             aliases: ['gchar', 'genshin', 'genshincharacter'],
             category: 'anime',
