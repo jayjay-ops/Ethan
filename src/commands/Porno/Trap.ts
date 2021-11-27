@@ -12,7 +12,7 @@ export default class Command extends BaseCommand {
         super(client, handler, {
             command: 'ᴛʀᴀᴘ',
             description: 'Will send you random nsfw traps image.',
-            aliases: ['ntrap'],
+            aliases: ['ntrap', 'trap'],
             category: 'porno',
             usage: `${client.config.prefix}trap`
         })
