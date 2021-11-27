@@ -9,7 +9,7 @@ export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
             command: 'sᴛɪᴄᴋᴇʀ',
-            aliases: ['s'],
+            aliases: ['s', 'sticker'],
             description: 'Converts images/videos into stickers',
             category: 'media',
             usage: `${client.config.prefix}sticker [(as caption | tag)[video | image]]`,
