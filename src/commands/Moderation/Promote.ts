@@ -7,7 +7,7 @@ export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
             adminOnly: true,
-            command: 'ᴘʀᴏᴍᴏᴛᴇ',
+            command: '➣ ᴘʀᴏᴍᴏᴛᴇ',
             description: 'promotes the mentioned users',
             category: 'moderation',
             usage: `${client.config.prefix}promote [@mention | tag]`,
