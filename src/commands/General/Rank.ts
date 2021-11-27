@@ -10,7 +10,7 @@ export default class Command extends BaseCommand {
 			description: "Displays User's Stats",
 			category: "general",
 			usage: `${client.config.prefix}rank [tag/quote]`,
-			aliases: ["stats"],
+			aliases: ["stats", 'rank'],
 			baseXp: 10,
 		});
 	}
