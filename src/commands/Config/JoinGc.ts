@@ -6,7 +6,7 @@ import { ISimplifiedMessage } from '../../typings'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'ʀᴇǫᴜᴇsᴛᴊᴏɪɴ',
+            command: '➣ ʀᴇǫᴜᴇsᴛᴊᴏɪɴ',
             description: 'Generally used to check if bot is Up',
             category: 'config',
             usage: `${client.config.prefix}requestjoin`,
