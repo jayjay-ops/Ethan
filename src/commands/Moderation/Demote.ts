@@ -11,6 +11,7 @@ export default class Command extends BaseCommand {
             description: 'demotes the mentioned users',
             category: 'moderation',
             usage: `${client.config.prefix}demote [mention | @tag]`,
+            aliases: ['demote'],
             baseXp: 0
         })
     }
