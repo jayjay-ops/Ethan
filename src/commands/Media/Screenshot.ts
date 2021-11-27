@@ -10,7 +10,7 @@ export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
             command: 'sᴄʀᴇᴇɴsʜᴏᴛ',
-            aliases: ['ss', 'ssweb'],
+            aliases: ['ss', 'ssweb', 'screenshot'],
             description: 'Gives you the screenshot of the given url. ',
             category: 'media',
             usage: `${client.config.prefix}screenshot [url]`,
