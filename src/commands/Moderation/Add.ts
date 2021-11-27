@@ -16,7 +16,7 @@ export default class Command extends BaseCommand {
     }
 
     run = async (M: ISimplifiedMessage,parsedArgs: IParsedArgs): Promise<void> => {
-        const number = parsedArgs.joined.replace(/(\D+/,'').toString();
+        const number = parsedArgs.joined.replace(/\D+/g,'').toString();
 console.log(number) ;
         // let text = '*Action*\n\n'
         try{
