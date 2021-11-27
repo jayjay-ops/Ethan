@@ -9,7 +9,7 @@ import { MessageType } from '@adiwajshing/baileys'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'ᴍᴀɴɢᴀ',
+            command: '➣ ᴍᴀɴɢᴀ',
             description: `Gives you the data of the given manga from MyAnimeList.`,
             aliases: ['mnga', 'manga'],
             category: 'anime',
