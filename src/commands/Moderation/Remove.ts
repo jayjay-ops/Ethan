@@ -8,7 +8,7 @@ export default class Command extends BaseCommand {
         super(client, handler, {
             adminOnly: true,
             aliases: ['boom','remove','kick'],
-            command: 'ʀᴇᴍᴏᴠᴇ',
+            command: '➣ ʀᴇᴍᴏᴠᴇ',
             description: 'removes the mentioned users',
             category: 'moderation',
             usage: `${client.config.prefix}remove [@mention | tag]`,
