@@ -14,7 +14,7 @@ export default class Command extends BaseCommand {
 		super(client, handler, {
 			command: "ᴛʜɪɢʜs",
 			description: `Do you love girls with thicc thighs?`,
-			aliases: ["thigh"],
+			aliases: ["thigh", "thighs"],
 			category: "porno",
 			usage: `${client.config.prefix}thighs`,
 			baseXp: 50,
