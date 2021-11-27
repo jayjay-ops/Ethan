@@ -11,7 +11,7 @@ export default class Command extends BaseCommand {
             command: 'ʏᴛsᴇᴀʀᴄʜ',
             description: 'Searches YT',
             category: 'media',
-            aliases: ['yts'],
+            aliases: ['yts', 'ytsearch'],
             usage: `${client.config.prefix}yts [term]`,
             baseXp: 20
         })
