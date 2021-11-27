@@ -10,7 +10,7 @@ export default class Command extends BaseCommand {
             command: 'ᴇᴅɪᴛɢʀᴏᴜᴘ',
             description: 'Updates the Group Subject or Description.',
             category: 'moderation',
-            aliases: ['gadd', 'gset'],
+            aliases: ['gadd', 'gset', 'groupchange', 'editgroup'],
             usage: `${client.config.prefix}gset (sub/desc) (value)`,
             baseXp: 0
         })
