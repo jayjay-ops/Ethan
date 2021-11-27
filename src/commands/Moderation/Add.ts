@@ -16,7 +16,7 @@ export default class Command extends BaseCommand {
     }
 
     run = async (M: ISimplifiedMessage,parsedArgs: IParsedArgs): Promise<void> => {
-        const number = parsedArgs.joined.replace(/\s/g,'').replace(/\+/g,'')
+        const number = parsedArgs.joined.replace(/(\d+)/,'').toString();
         // let text = '*Action*\n\n'
         try{
         if (!M.groupMetadata?.admins?.includes(this.client.user.jid))
