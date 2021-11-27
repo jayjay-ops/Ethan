@@ -14,7 +14,7 @@ export default class Command extends BaseCommand {
 	}
 	constructor(client: WAClient, handler: MessageHandler) {
 		super(client, handler, {
-			command: "sᴛᴇᴀʟ",
+			command: "➣ sᴛᴇᴀʟ",
 			aliases: ["take", 'steal'],
 			description: "Will format the given sticker.",
 			category: "fun",
