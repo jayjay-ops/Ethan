@@ -6,7 +6,7 @@ import { ISimplifiedMessage } from '../../typings'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'ʙᴀɴ',
+            command: '➣ ʙᴀɴ',
             description: 'Bans the tagged users globally',
             category: 'dev',
             usage: `${client.config.prefix}ban [@tag]`,
