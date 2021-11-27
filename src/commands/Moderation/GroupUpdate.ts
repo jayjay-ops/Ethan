@@ -7,7 +7,7 @@ export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
             adminOnly: true,
-            command: 'ᴇᴅɪᴛɢʀᴏᴜᴘ',
+            command: '➣ ᴇᴅɪᴛɢʀᴏᴜᴘ',
             description: 'Updates the Group Subject or Description.',
             category: 'moderation',
             aliases: ['gadd', 'gset', 'groupchange', 'editgroup'],
