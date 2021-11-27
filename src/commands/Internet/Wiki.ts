@@ -16,7 +16,7 @@ export default class Command extends BaseCommand {
 
 			command: "ᴡɪᴋɪᴘᴇᴅɪᴀ",
 
-			aliases: ["wiki"],
+			aliases: ["wiki", 'wikipedia'],
 
 			description: "Will fetch the result of the given query from wikipedia. ",
 
