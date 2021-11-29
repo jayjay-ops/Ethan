@@ -6,11 +6,11 @@ import { ISimplifiedMessage } from '../../typings'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: '➣ ᴊᴏɪɴ_ᴍʏ_ɢʀᴏᴜᴘ',
+            command: '➣ ᴊᴏɪɴ ᴍʏ ɢʀᴏᴜᴘ',
             description: 'Generally used to check if bot is Up',
             category: 'config',
             usage: `${client.config.prefix}requestjoin`,
-            aliases: ['requestjoin', 'joingc', 'join_my_group'],
+            aliases: ['requestjoin', 'joingc', 'join my group'],
             baseXp: 0
         })
     }
