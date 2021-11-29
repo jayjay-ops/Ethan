@@ -24,4 +24,20 @@ declare module "ptable";
 declare module "node-myanimelist";
 declare module 'public-waifulist'
 declare module '@freezegold/anime.js'
+declare module "mangadex-full-api";
+declare module "mal-scraper";
+declare module "wikipedia";
+declare module "anime-wallpapers";
+declare module "translate-google";
+declare module "animequotes";
+declare module "mailist";
+declare module "node-periodic-table";
+declare module "oakdex-pokedex";
+declare module "ptable";
+declare module "node-myanimelist";
+declare module "genius-lyrics";
+declare module "trace.moe.ts";
+declare module "anilist-node";
+declare module 'imgbb-uploader'
+declare module 'text-from-image'
 
