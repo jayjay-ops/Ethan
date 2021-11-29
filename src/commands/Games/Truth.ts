@@ -12,7 +12,7 @@ export default class Command extends BaseCommand {
             command: '➣ ᴛʀᴜᴛʜ',
             description: 'Gives you random questions',
             category: 'games',
-            aliases: ['truth','tr']
+            aliases: ['truth','tr'],
             usage: `${client.config.prefix}truth`,
             
         })
