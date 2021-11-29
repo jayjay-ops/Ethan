@@ -27,6 +27,7 @@ declare module '@freezegold/anime.js'
 declare module "mangadex-full-api";
 declare module "mal-scraper";
 declare module "wikipedia";
+declare module "better-tord";
 declare module "anime-wallpapers";
 declare module "translate-google";
 declare module "animequotes";
