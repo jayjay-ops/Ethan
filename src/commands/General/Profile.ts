@@ -1,4 +1,4 @@
-import { MessageType } from '@adiwajshing/baileys'
+/* import { MessageType } from '@adiwajshing/baileys'
 import MessageHandler from '../../Handlers/MessageHandler'
 import BaseCommand from '../../lib/BaseCommand'
 import request from '../../lib/request'
@@ -96,3 +96,8 @@ export default class Command extends BaseCommand {
         )
     }
 }
+*/
+
+
+
+who.replace(/@.+/, '')
