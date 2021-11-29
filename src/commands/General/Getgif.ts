@@ -14,7 +14,6 @@ export default class Command extends BaseCommand {
 			command: "➣ ɢᴇᴛɢɪғ",
 			description: "Will give you random gif of the given search term.",
 			category: "general",
-                        dm: true,
 			usage: `${client.config.prefix}getgif [term]`,
 			aliases: ["gif",'getgif'],
 			baseXp: 40,
