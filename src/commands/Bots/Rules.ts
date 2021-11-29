@@ -10,7 +10,7 @@ import { MessageType } from '@adiwajshing/baileys'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'ʀᴜʟᴇs',
+            command: '➣ ʀᴜʟᴇs',
             description: `Get rules list`,
             aliases: ['rules'],
             category: 'bots',
