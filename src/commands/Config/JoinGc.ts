@@ -10,12 +10,12 @@ export default class Command extends BaseCommand {
             description: 'Generally used to check if bot is Up',
             category: 'config',
             usage: `${client.config.prefix}requestjoin`,
-            aliases: ['request join', 'joingc', 'join-my-group'],
+            aliases: ['jc', 'joingc', 'join-my-group'],
             baseXp: 0
         })
     }
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
-        return void (await M.reply(`📮 ${M.sender.username},\n*I will be more than happy to join your group!*\n*But you must ask my Developer first*\n\n👨🏾‍💻 ➻ wa.me/+2349051064375`))
+        return void (await M.reply(`📮 @${M.sender.username},\n*I will be more than happy to join your group!*\n*But you must ask my Developer first*\n\n👨🏾‍💻 ➻ wa.me/+2349051064375`))
     }
 }
