@@ -16,6 +16,6 @@ export default class Command extends BaseCommand {
     }
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
-        return void (await M.reply(`📮 @${M.sender.username},\n*I will be more than happy to join your group!*\n*But you must ask my Developer first*\n\n👨🏾‍💻 ➻ wa.me/+2349051064375`))
+        return void (await M.reply(`📮 ${M.sender.username},\n*I will be more than happy to join your group!*\n*But you must ask my Developer first*\n\n👨🏾‍💻 ➻ wa.me/+2349051064375`))
     }
 }
