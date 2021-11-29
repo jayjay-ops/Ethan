@@ -12,6 +12,7 @@ export default class Command extends BaseCommand {
             command: '➣ ʜᴇʟᴘ',
             description: 'Displays the help menu or shows the info of the command provided',
             category: 'general',
+            dm: true,
             usage: `${client.config.prefix}help (command_name)`,
             aliases: ['help', 'h'],
         })
