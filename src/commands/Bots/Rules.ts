@@ -25,7 +25,7 @@ export default class Command extends BaseCommand {
         MessageType.image,
                     undefined,
                     undefined,
-                    `_*❛ ╾╼🎀[Rules]🎀╾╼ ❜*_\n\n*➻* _Don't ask for script_\n*➻* _use !ethan to get the Official group link and support link_\n*➻* _If you want to chat with Ethan you can use *!bot/chat (your text)* both are different ai chat bots_\n*➻* _If you want to add Ethan-Bot in your group then contact the owner by *!owner/!mods*_ \n*➻* _Dont use wrong command, use the command given in the *help list*_ \n*➻* _Dont spam the bot with commands if the bot is not responding, its means the bot maybe offline or facing internet issue._ \n*➻* _Dont Dm the bot_ \n\n*IF YOU DONT FOLLOW THE RULES THEN YOU WILL BE BAN SOON* 🚫  `,
+                    `_*❛ ╾╼🎀[Rules]🎀╾╼ ❜*_\n\n\n*➻* _Don't ask for script_\n\n*➻* _use !ethan to get the Official group link and support link_\n\n*➻* _If you want to chat with Ethan you can use *!bot/chat (your text)* both are different ai chat bots_\n\n*➻* _If you want to add Ethan-Bot in your group then contact the owner by *!owner/!mods*_ \n\n*➻* _Dont use wrong command, use the command given in the *help list*_ \n\n*➻* _Dont spam the bot with commands if the bot is not responding, its means the bot maybe offline or facing internet issue._ \n\n*➻* _Dont Dm the bot_ \n\n\n*IF YOU DONT FOLLOW THE RULES THEN YOU WILL BE BAN SOON* 🚫  `,
                     undefined
                 ).catch((reason: any) =>
             M.reply(`✖ An error occurred. Please try again later.`))
