@@ -11,7 +11,7 @@ export default class Command extends BaseCommand {
             category: 'moderation',
             usage: `${client.config.prefix}add [@mention | tag]`,
             aliases: ['add'],
-            baseXp: 10
+            baseXp: 20
         })
     }
 
