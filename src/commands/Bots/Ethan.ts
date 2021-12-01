@@ -1,4 +1,4 @@
-/* import MessageHandler from '../../Handlers/MessageHandler'
+import MessageHandler from '../../Handlers/MessageHandler'
 import BaseCommand from '../../lib/BaseCommand'
 import WAClient from '../../lib/WAClient'
 import { ISimplifiedMessage } from '../../typings'
@@ -21,10 +21,10 @@ export default class Command extends BaseCommand {
         ).catch((reason: Error) => M.reply(`an error occurred, Reason: ${reason}`))
     }
 }
-*/
 
 
-import { MessageType } from '@adiwajshing/baileys'
+
+/* import { MessageType } from '@adiwajshing/baileys'
 import MessageHandler from '../../Handlers/MessageHandler'
 import BaseCommand from '../../lib/BaseCommand'
 import WAClient from '../../lib/WAClient'
@@ -51,3 +51,4 @@ export default class Command extends BaseCommand {
         return void M.reply('Sent you the support info in personal message'); //.catch((reason: Error) => M.reply(`an error occurred, Reason: ${reason}`))
     }
 }
+*/
