@@ -15,7 +15,7 @@ export default class Command extends BaseCommand {
             aliases: ['sex-waifu'],
             category: 'porno',
             usage: `${client.config.prefix}sex-waifu`,
-            baseXp: 20;
+            baseXp: 20
         })
     }
 
