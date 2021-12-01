@@ -13,6 +13,8 @@ declare module "anime-wallpaper";
 declare module "translate-google";
 declare module "trace.moe.ts";
 declare module "animequotes";
+declare module "canvacord";
+declare module "discord-image-generation";
 declare module "cheerio";
 declare module "anilist-node";
 declare module "mailist";
