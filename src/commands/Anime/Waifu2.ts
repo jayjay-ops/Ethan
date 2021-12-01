@@ -14,7 +14,7 @@ export default class Command extends BaseCommand {
             command: '➣ ᴡᴀɪғᴜ2',
             description: 'Get waifu images with details',
             category: 'anime',
-            aliases: ['waifu2', 'waifu-info']
+            aliases: ['waifu2', 'waifu-info'],
             usage: `${client.config.prefix}waifu2`,
             
         })
