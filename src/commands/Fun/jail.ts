@@ -13,7 +13,7 @@ export default class Command extends BaseCommand {
 			command: "➣ ᴊᴀɪʟ",
 			description: "Who wanna go to jail for being horny?",
 			category: "fun",
-                        aliases: ['jail']
+                        aliases: ['jail'],
 			usage: `${client.config.prefix}jail [tag/quote]`,
 			baseXp: 20,
 		});
