@@ -12,7 +12,7 @@ import { MessageType } from "@adiwajshing/baileys";
 export default class Command extends BaseCommand {
 	constructor(client: WAClient, handler: MessageHandler) {
 		super(client, handler, {
-			command: "➣ ᴢᴇx-ʟᴏʟɪ",
+			command: "➣ sᴇx-ʟᴏʟɪ",
 			description: `Will send you random porno loli image.`,
 			aliases: ["sex-loli","s-loli"],
 			category: "porno",
