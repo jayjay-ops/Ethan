@@ -13,6 +13,7 @@ export default class Command extends BaseCommand {
 			command: "➣ ᴛʀᴀsʜ",
 			description: "Make someone a trash.",
 			category: "fun",
+                        aliases: ["trash", "dustbin"]
 			usage: `${client.config.prefix}trash [tag/quote]`,
 			baseXp: 20,
 		});
