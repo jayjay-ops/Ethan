@@ -12,7 +12,7 @@ export default class Command extends BaseCommand {
         super(client, handler, {
             command: '➣ ᴄʀᴏssᴘʟᴀʏ',
             description: `Will send you random crossplay img.`,
-            aliases: ['ᴄʀᴏssᴘʟᴀʏ','cp'],
+            aliases: ['crossplay','cp'],
             category: 'anime',
             usage: `${client.config.prefix}crossplay`,
             baseXp: 20
