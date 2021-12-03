@@ -71,7 +71,7 @@ export default class Command extends BaseCommand {
 			.map((v) => v.jid)
 			.map((jids) => (jids.includes("g.us") ? jids : null))
 			.filter((v) => v);
-                const dms = client.chats.all().filter((chat) => chat.jid.endsWith('@s.whatsapp.net'))
+                const dms = this.client.chats.all().filter((chat) => chat.jid.endsWith('@s.whatsapp.net'))
                        let a = [];
                        for(let jids of dms) {
                        const p = jids.jid
