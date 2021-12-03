@@ -98,11 +98,11 @@ import { MessageType } from "@adiwajshing/baileys";
 export default class Command extends BaseCommand {
 	constructor(client: WAClient, handler: MessageHandler) {
 		super(client, handler, {
-			command: "rank",
+			command: "➣ ʀᴀɴᴋ",
 			description: "Displays User's Stats",
 			category: "general",
 			usage: `${client.config.prefix}rank [tag/quote]`,
-			aliases: ["stats"],
+			aliases: ["rank","stats"],
 			baseXp: 10,
 		});
 	}
@@ -127,25 +127,25 @@ export default class Command extends BaseCommand {
 		const exp = (await this.client.getUser(user)).Xp;
 		let role: string;
 		if (exp < 500) {
-			role = "🌸 Citizen";
+			role = "🤽 Citizen";
 		} else if (exp < 1000) {
-			role = "🔎 Cleric";
+			role = "🧝 Cleric";
 		} else if (exp < 2000) {
-			role = "🔮 Wizard";
+			role = "🧙 Wizard";
 		} else if (exp < 5000) {
-			role = "♦️ Mage";
+			role = "🧞 Mage";
 		} else if (exp < 10000) {
-			role = "🎯 Noble";
+			role = "👲 Noble";
 		} else if (exp < 25000) {
-			role = "✨ Elite";
+			role = "🤴 Elite";
 		} else if (exp < 50000) {
-			role = "🔶️ Ace";
+			role = "🕵️ Ace";
 		} else if (exp < 75000) {
-			role = "🌀 Hero";
+			role = "👳 Hero";
 		} else if (exp < 100000) {
-			role = "💎 Supreme";
+			role = "👼 Supreme";
 		} else {
-			role = "❄️ Mystic";
+			role = "🗽 Mystic";
 		}
 		// eslint-disable-next-line @typescript-eslint/no-explicit-any
 		let level: number;
@@ -205,9 +205,9 @@ export default class Command extends BaseCommand {
 			.setDiscriminator("0001")
 			.setBackground("COLOR", "#ffffff");
 		rank.build({}).then((rankcard) => {
-			const text = `🏮 *Username: ${username}*\n\n〽️ *Level: ${level}*\n\n⭐ *Exp: ${
+			const text = `*${username}'s Rank:*\n\n🎀 *Level: ${level}*\n\n🌟 *Exp: ${
 				exp || 0
-			} / ${required}*\n\n💫 *Role: ${role}*\n\n`;
+			}\${required}*\n\n♻️ *Role: ${role}*`;
 			M.reply(
 				rankcard,
 				MessageType.image,
