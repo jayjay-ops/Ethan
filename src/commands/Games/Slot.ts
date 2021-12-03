@@ -15,4 +15,7 @@ export default class Command extends BaseCommand {
         })
     }
     //Read slot.json file
-    run = async (M: ISimplifiedMessage): Promise<void> => {}
+    run = async (M: ISimplifiedMessage): Promise<void> => {
+         const _slot = JSON.parse(fs.readFileSync('./result/games/slot.json'));
+
+}
