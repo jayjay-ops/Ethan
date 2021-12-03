@@ -17,6 +17,7 @@ export default class Command extends BaseCommand {
     }
     //Read slot.json file
     run = async (M: ISimplifiedMessage): Promise<void> => {
+         const xp = await this.client.getUser(user)).Xp
          const _slot = JSON.parse(this.client.assets.get('slot'))
 
 }
