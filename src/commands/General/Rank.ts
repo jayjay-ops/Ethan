@@ -207,7 +207,7 @@ export default class Command extends BaseCommand {
 		rank.build({}).then((rankcard) => {
 			const text = `*${username}'s Rank:*\n\n🎀 *Level: ${level}*\n\n🌟 *Exp: ${
 				exp || 0
-			}\${required}*\n\n♻️ *Role: ${role}*`;
+			} / ${required}*\n\n♻️ *Role: ${role}*`;
 			M.reply(
 				rankcard,
 				MessageType.image,
