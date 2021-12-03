@@ -14,3 +14,5 @@ export default class Command extends BaseCommand {
             baseXp: 30
         })
     }
+    //Read slot.json file
+    run = async (M: ISimplifiedMessage): Promise<void> => {}
