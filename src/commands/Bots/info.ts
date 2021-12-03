@@ -20,6 +20,7 @@ export default class Command extends BaseCommand {
 
 	run = async (M: ISimplifiedMessage): Promise<void> => {
 		/*eslint-disable @typescript-eslint/no-explicit-any*/
+/*
 		const chats: any = this.client.chats
 			.all()
 			.filter((v) => !v.read_only && !v.archive)
