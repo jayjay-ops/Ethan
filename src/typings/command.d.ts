@@ -27,6 +27,7 @@ export type TCategory =
     | 'dev'
     | 'fun'
     | 'educative'
+    | 'games'
     | 'general'
     | 'internet'
     | 'media'
