@@ -12,7 +12,7 @@ export default class Command extends BaseCommand {
             command: '➣ ɢᴏᴏɢʟᴇ-ᴛʀᴇɴᴅ',
             aliases: ['google-trend','gt', 'g-trend'],
             description: 'Gives you the trending list of google ',
-            category: 'fun',
+            category: 'fun-games',
             
             usage: `${client.config.prefix}google-trend [title]`
         })
