@@ -18,14 +18,15 @@ export default class Command extends BaseCommand {
     //Read slot.json file
     run = async (M: ISimplifiedMessage): Promise<void> => {
          const slot = readFileSync(this.client.assets.get('slot'));
-         const _userxpslot = (await this.client.getUser(user)).Xp;
-         const userxpslot = _userxpslot[0]
-         let oldxp = userxpslot;
+         const exp = (await this.client.getUser(user)).Xp;
+         //const userxpslot = exp[0]
+         //let oldxp = userxpslot;
+        if (${exp} < 1000)
+           M.reply("not enough experince to play")
 }
 
 
 
-const xp = 500
-if (xp < 1000)
-M.reply("not enough experince to play")
+//if (xp < 1000)
+
 
