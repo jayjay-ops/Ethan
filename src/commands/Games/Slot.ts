@@ -23,3 +23,7 @@ export default class Command extends BaseCommand {
 
 
 
+const xp = 500
+if (xp < 1000)
+M.reply("not enough experince to play")
+
