@@ -19,6 +19,8 @@ export default class Command extends BaseCommand {
     run = async (M: ISimplifiedMessage): Promise<void> => {
          const slot = readFileSync(this.client.assets.get('slot'));
          const _userxpslot = (await this.client.getUser(user)).Xp;
+         const userxpslot = _userxpslot[0]
+         let oldxp = Number(userxpslot);
 }
 
 
