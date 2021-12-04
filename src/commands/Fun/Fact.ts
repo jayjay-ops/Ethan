@@ -10,7 +10,7 @@ export default class Command extends BaseCommand {
             command: '➣ ғᴀᴄᴛ',
             description: 'sends a random fact for you.',
             aliases: ['facts','fact'],
-            category: 'fun',
+            category: 'fun-games',
             usage: `${client.config.prefix}fact`,
             baseXp: 30
         })
