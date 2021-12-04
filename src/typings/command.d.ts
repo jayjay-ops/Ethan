@@ -25,7 +25,7 @@ export type TCategory =
     | 'bots'
     | 'config'
     | 'dev'
-    | 'fun-games'
+    | 'fun'
     | 'educative'
     | 'general'
     | 'internet'
