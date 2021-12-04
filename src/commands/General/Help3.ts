@@ -11,7 +11,7 @@ export default class Command extends BaseCommand {
         super(client, handler, {
             command: 'help3',
             description: 'Displays the help menu or shows the info of the command provided',
-            category: 'fun',
+            category: 'general',
             usage: `${client.config.prefix}help3 (command_name)`,
             dm: true,
             aliases: ['h3']
