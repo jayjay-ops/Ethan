@@ -10,7 +10,7 @@ export default class Command extends BaseCommand {
         super(client, handler, {
             command: 'help4',
             description: 'Displays the help menu or shows the info of the command provided',
-            category: 'fun',
+            category: 'media',
             usage: `${client.config.prefix}help4 (command_name)`,
             dm: true,
             aliases: ['h4']
@@ -24,24 +24,23 @@ export default class Command extends BaseCommand {
         let ethan = n[Math.floor(Math.random() * n.length)]
         return void this.client.sendMessage(M.from, { url: ethan }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
-            caption: `-Ⓕ︎Ⓤ︎Ⓝ︎-Ⓖ︎Ⓐ︎Ⓜ︎Ⓔ︎Ⓢ︎ 🎑
+            caption: `-Ⓜ︎Ⓔ︎Ⓓ︎Ⓘ︎Ⓐ︎ 🎑
 ──────────────
-🧧 ${this.client.config.prefix}ʏᴏᴜᴛᴜʙᴇ-ᴛʀᴇɴᴅ
-🧧 ${this.client.config.prefix}ᴊᴀɪʟ
-🧧 ${this.client.config.prefix}ᴀᴅᴠɪᴄᴇ
-🧧 ${this.client.config.prefix}ᴛʀɪɢɢᴇʀ
-🧧 ${this.client.config.prefix}ᴡᴀɴᴛᴇᴅ
-🧧 ${this.client.config.prefix}ᴛʀɪᴠɪᴀ
-🧧 ${this.client.config.prefix}ᴡʜʏ
-🧧 ${this.client.config.prefix}ᴘᴜᴘᴘʏ
-🧧 ${this.client.config.prefix}ʀᴇᴀᴄᴛ
-🧧 ${this.client.config.prefix}ǫᴜᴏᴛᴇ
-🧧 ${this.client.config.prefix}sʜɪᴘ
-🧧 ${this.client.config.prefix}sᴛᴇᴀʟ
-🧧 ${this.client.config.prefix}ʀɪᴘ
-🧧 ${this.client.config.prefix}ᴛʀᴜᴛʜ
-🧧 ${this.client.config.prefix}ᴄʜᴇss
-🧧 ${this.client.config.prefix}ᴅᴀʀᴇ
+🧧 ${this.client.config.prefix}ʏᴛᴀᴜᴅɪᴏ
+🧧 ${this.client.config.prefix}ʏᴛᴠɪᴅᴇᴏ
+🧧 ${this.client.config.prefix}ᴘʟᴀʏ
+🧧 ${this.client.config.prefix}ʟʏʀɪᴄs
+🧧 ${this.client.config.prefix}ʙʟᴜʀ
+🧧 ${this.client.config.prefix}ᴅᴏᴡɴʟᴏᴀᴅ-ɪɢ
+🧧 ${this.client.config.prefix}ᴋᴀʀᴀᴏᴋᴇ
+🧧 ${this.client.config.prefix}ᴘɪɴᴛᴇʀᴇsᴛ
+🧧 ${this.client.config.prefix}ʀᴇᴛʀɪᴇᴠᴇ
+🧧 ${this.client.config.prefix}sᴄʀᴇᴇɴsʜᴏᴛ
+🧧 ${this.client.config.prefix}sᴘᴏᴛɪғʏ
+🧧 ${this.client.config.prefix}sᴛɪᴄᴋᴇʀ
+🧧 ${this.client.config.prefix}sᴜʙʀᴇʙ
+🧧 ${this.client.config.prefix}ʏᴛsᴇᴀʀᴄʜ
+🧧 ${this.client.config.prefix}ɢᴇᴛɢɪғ
 
 ──────────────` }
         )
