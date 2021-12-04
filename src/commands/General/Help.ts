@@ -127,7 +127,7 @@ export default class Command extends BaseCommand {
 
 🎋 ${this.client.config.prefix}𝙷𝚎𝚕𝚙2 [${this.client.config.prefix}𝚑2]
 
--Ⓕ︎Ⓤ︎Ⓝ︎ ☻︎
+-Ⓕ︎Ⓤ︎Ⓝ︎~Ⓖ︎Ⓐ︎Ⓜ︎Ⓔ︎Ⓢ︎ ☻︎
 
 🎋 ${this.client.config.prefix}𝙷𝚎𝚕𝚙3 [${this.client.config.prefix}𝚑3]
 
@@ -135,25 +135,21 @@ export default class Command extends BaseCommand {
 
 🎋 ${this.client.config.prefix}𝙷𝚎𝚕𝚙4 [${this.client.config.prefix}𝚑4]
 
--Ⓖ︎Ⓐ︎Ⓜ︎Ⓔ︎Ⓢ︎ ☻︎
+-Ⓜ︎Ⓞ︎Ⓓ︎Ⓔ︎Ⓡ︎Ⓐ︎Ⓣ︎Ⓘ︎Ⓞ︎Ⓝ︎ ☻︎
 
 🎋 ${this.client.config.prefix}𝙷𝚎𝚕𝚙5 [${this.client.config.prefix}𝚑5]
 
--Ⓜ︎Ⓞ︎Ⓓ︎Ⓔ︎Ⓡ︎Ⓐ︎Ⓣ︎Ⓘ︎Ⓞ︎Ⓝ︎ ☻︎
+-Ⓔ︎Ⓓ︎Ⓤ︎Ⓒ︎Ⓐ︎Ⓣ︎Ⓘ︎Ⓥ︎Ⓔ︎ ☻︎
 
 🎋 ${this.client.config.prefix}𝙷𝚎𝚕𝚙6 [${this.client.config.prefix}𝚑6]
 
--Ⓔ︎Ⓓ︎Ⓤ︎Ⓒ︎Ⓐ︎Ⓣ︎Ⓘ︎Ⓥ︎Ⓔ︎ ☻︎
+-Ⓟ︎Ⓞ︎Ⓡ︎Ⓝ︎Ⓞ︎ ☻︎
 
 🎋 ${this.client.config.prefix}𝙷𝚎𝚕𝚙7 [${this.client.config.prefix}𝚑7]
 
--Ⓟ︎Ⓞ︎Ⓡ︎Ⓝ︎Ⓞ︎ ☻︎
-
-🎋 ${this.client.config.prefix}𝙷𝚎𝚕𝚙8 [${this.client.config.prefix}𝚑8]
-
 -Ⓒ︎Ⓞ︎Ⓝ︎Ⓕ︎Ⓘ︎Ⓖ︎ ☻︎
 
-🎋 ${this.client.config.prefix}𝙷𝚎𝚕𝚙9 [${this.client.config.prefix}9]
+🎋 ${this.client.config.prefix}𝙷𝚎𝚕𝚙8 [${this.client.config.prefix}𝚑8]
 
 ───────────────────
 *╭─「 B☺︎︎T 」*
