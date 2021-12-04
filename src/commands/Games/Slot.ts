@@ -18,8 +18,7 @@ export default class Command extends BaseCommand {
     //Read slot.json file
     run = async (M: ISimplifiedMessage): Promise<void> => {
          const slot = readFileSync(this.client.assets.get('slot'));
-         const userxp = await this.client.getUser(user)).Xp
-         const _userxpslot = JSON.parse(fs.readFileSync(`./data/xp/${sender.split("@")[0]}.xp.json`));
+         const _userxpslot = (await this.client.getUser(user)).Xp;
 }
 
 
