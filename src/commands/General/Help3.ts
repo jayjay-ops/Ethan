@@ -25,7 +25,7 @@ export default class Command extends BaseCommand {
         let ethan = n[Math.floor(Math.random() * n.length)]
         return void this.client.sendMessage(M.from, { url: ethan }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
-            caption: `-Ⓕ︎Ⓤ︎Ⓝ︎-Ⓖ︎Ⓐ︎Ⓜ︎Ⓔ︎Ⓢ︎ 🎑
+            caption: `-Ⓕ︎Ⓤ︎Ⓝ︎ 🎑
 ──────────────
 🧧 ${this.client.config.prefix}ʏᴏᴜᴛᴜʙᴇ-ᴛʀᴇɴᴅ
 🧧 ${this.client.config.prefix}ᴊᴀɪʟ
