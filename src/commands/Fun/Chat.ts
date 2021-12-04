@@ -10,7 +10,7 @@ export default class Command extends BaseCommand {
             command: '➣ ᴄʜᴀᴛ',
             description: 'Chat with the Bot in group',
             aliases: ['bot','chat'],
-            category: 'fun-games',
+            category: 'fun',
             usage: `${client.config.prefix}bot (text)`,
             baseXp: 30
         })
