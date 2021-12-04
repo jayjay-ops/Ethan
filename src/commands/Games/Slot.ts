@@ -1,3 +1,5 @@
+/*
+
 import MessageHandler from '../../Handlers/MessageHandler'
 import BaseCommand from '../../lib/BaseCommand'
 import WAClient from '../../lib/WAClient'
@@ -21,7 +23,7 @@ export default class Command extends BaseCommand {
          const exp = (await this.client.getUser(user)).Xp;
    
          if (exp < 1000){
-           return void M.reply("not enough experince to play")
+           await M.reply("not enough experince to play")
          }
   }
 }
