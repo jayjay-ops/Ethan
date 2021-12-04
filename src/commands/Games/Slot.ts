@@ -20,7 +20,7 @@ export default class Command extends BaseCommand {
          const slot = readFileSync(this.client.assets.get('slot'));
          const _userxpslot = (await this.client.getUser(user)).Xp;
          const userxpslot = _userxpslot[0]
-         let oldxp = Number(userxpslot);
+         let oldxp = userxpslot;
 }
 
 
