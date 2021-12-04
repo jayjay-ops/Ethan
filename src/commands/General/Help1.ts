@@ -19,7 +19,7 @@ export default class Command extends BaseCommand {
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
         const n = [
-            './assets/videos/ethan.mp4'
+            './assets/videos/Ethan2.mp4'
         ]
         let ethan = n[Math.floor(Math.random() * n.length)]
         return void this.client.sendMessage(M.from, { url: ethan }, MessageType.video, {quoted:M.WAMessage,
