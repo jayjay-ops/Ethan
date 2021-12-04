@@ -20,9 +20,9 @@ export default class Command extends BaseCommand {
          const slot = readFileSync(this.client.assets.get('slot'));
          const exp = (await this.client.getUser(user)).Xp;
    
-         if (exp < 1000)
+         if (exp < 1000){
             M.reply("not enough experince to play")
-
+   }
 }
 
 
