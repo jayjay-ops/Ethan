@@ -41,6 +41,7 @@ export default class Command extends BaseCommand {
 ⛲ ${this.client.config.prefix}ᴛʀᴀɴsʟᴀᴛᴇ
 ⛲ ${this.client.config.prefix}ᴡɪᴋɪᴘᴇᴅɪᴀ
 ⛲ ${this.client.config.prefix}ɪɴғᴏ
+⛲ ${this.client.config.prefix}ɢᴇᴛɢɪғ
 
 ──────────────` }
         )
