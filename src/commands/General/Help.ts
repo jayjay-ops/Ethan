@@ -133,7 +133,7 @@ export default class Command extends BaseCommand {
 
 🎋 ${this.client.config.prefix}𝙷𝚎𝚕𝚙2
 
-❥︎ Ⓕ︎Ⓤ︎Ⓝ︎ ☻︎
+❥︎ Ⓕ︎Ⓤ︎Ⓝ︎-Ⓖ︎Ⓐ︎Ⓜ︎Ⓔ︎Ⓢ︎ ☻︎
 
 🎋 ${this.client.config.prefix}𝙷𝚎𝚕𝚙3
 
@@ -153,7 +153,7 @@ export default class Command extends BaseCommand {
 
 🎋 ${this.client.config.prefix}𝙷𝚎𝚕𝚙7
 
-❥︎ Ⓖ︎Ⓐ︎Ⓜ︎Ⓔ︎Ⓢ︎ ☻︎
+❥︎ Ⓑ︎Ⓞ︎Ⓣ︎Ⓢ︎ ☻︎
 
 🎋 ${this.client.config.prefix}𝙷𝚎𝚕𝚙8
 
