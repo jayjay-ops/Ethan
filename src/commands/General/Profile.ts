@@ -20,6 +20,7 @@ export default class Command extends BaseCommand {
     run = async (M: ISimplifiedMessage): Promise<void> => {
         if (M.quoted?.sender) M.mentioned.push(M.quoted.sender)
         const user = M.mentioned[0] ? M.mentioned[0] : M.sender.jid
+        const coin = (await this.client.getUser(user)).Coin)
         let username = user === M.sender.jid ? M.sender.username : ''
         if (!username) {
             const contact = this.client.getContact(user)
@@ -90,7 +91,7 @@ export default class Command extends BaseCommand {
             undefined,
             `👤 *Name ➪ ${username}*\n\n💌 *About ➪ ${
                 (await this.client.getStatus(user)).status || 'None'
-            }*\n\n🏅 *Level ➪ ${level}*\n\n🌟 *Xp ➪ ${exp || 0}*\n\n♻️ *Role ➪ ${role}*\n\n🤴 *Admin ➪ ${
+            }*\n\n🏅 *Level ➪ ${level}*\n\n🌟 *Xp ➪ ${exp || 0}*\n\n☣️ *Coin ➪ ${coin || 0}*\n\n♻️ *Role ➪ ${role}*\n\n🤴 *Admin ➪ ${
                 M.groupMetadata?.admins?.includes(user) || false
             }*\n\n❌ *Ban ➪ ${(await this.client.getUser(user)).ban || false}*`
         )
