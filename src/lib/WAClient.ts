@@ -199,6 +199,16 @@ export default class WAClient extends Base {
             }).save()
     }
 
+    setCoin = async (jid: string, min: number, max: number): Promise<void> => {
+        const Coin = Math.floor(Math.random() * max) + min
+        const result = await this.DB.user.updateOne({ jid }, { $inc: { Coin } })
+        if (!result.nModified)
+            await new this.DB.user({
+                jid,
+                Coin
+            }).save()
+    }
+
     modifyAllChats = async (
         action: 'archive' | 'unarchive' | 'pin' | 'unpin' | 'mute' | 'unmute' | 'delete' | 'clear'
     ): Promise<{ status: 200 | 500 }> => {
