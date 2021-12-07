@@ -10,7 +10,7 @@ export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
             command: '➣ ᴘɪɴᴛᴇʀᴇsᴛ',
-            aliases: ['pi', 'pin'],
+            aliases: ['pinterest', 'pin'],
             description: 'Search wallpaper from pinterest.com. ',
             category: 'media',
             dm: true,
@@ -21,9 +21,9 @@ export default class Command extends BaseCommand {
     run = async (M: ISimplifiedMessage, { joined }: IParsedArgs): Promise<void> => {
         
         if (!joined) return void M.reply('Provide the keywords you wanna search, Baka!')
-        const ethan = joined.trim()
-        console.log(ethan)
-        const { data } = await axios.get(`https://api.zekais.com/pinterest?query=${ethan}&apikey=CnXf9Ojs`)
+        const chitoge = joined.trim()
+        console.log(chitoge)
+        const { data } = await axios.get(`https://api.ichikaa.xyz/api/pinterest?query=${chitoge}`)
         if ((data as { error: string }).error) return void (await M.reply('Sorry, couldn\'t find'))
         const buffer = await request.buffer(data.result[Math.floor(Math.random() * data.result.length)]).catch((e) => {
             return void M.reply(e.message)
@@ -35,7 +35,7 @@ export default class Command extends BaseCommand {
                     MessageType.image,
                     undefined,
                     undefined,
-                    `💐 *Result: ${ethan} has been found*\n`,
+                    `💐 *Result: ${chitoge} has been found*\n`,
                     undefined
                 ).catch((e) => {
                     console.log(`This error occurs when an image is sent via M.reply()\n Child Catch Block : \n${e}`)
@@ -45,7 +45,7 @@ export default class Command extends BaseCommand {
                 break
             } catch (e) {
                 // console.log('Failed2')
-                M.reply(`âœ– An error occurred. Please try again later.`)
+                M.reply(`🌠 An error occurred. Please try again later.`)
                 console.log(`This error occurs when an image is sent via M.reply()\n Parent Catch Block : \n${e}`)
             }
         }
