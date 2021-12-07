@@ -11,7 +11,7 @@ export default class Command extends BaseCommand {
         super(client, handler, {
             command: '➣ ɪɢ-ᴘʀᴏғɪʟᴇ',
             aliases: ['ig-profile', 'igp'],
-            description: 'Get the info of a user from instagram ',
+            description: 'Get the info of a user from ig ',
             category: 'educative',
             dm: true,
             usage: `${client.config.prefix}igp [name]`
@@ -21,9 +21,9 @@ export default class Command extends BaseCommand {
 	    run = async (M: ISimplifiedMessage, { joined }: IParsedArgs): Promise<void> => {
         
         if (!joined) return void M.reply('Provide the keywords you wanna search, Baka!')
-        const ethan = joined.trim()
-        console.log(ethan)
-        const { data } = await axios.get(`https://api-xcoders.xyz/api/stalk/ig?username=${ethan}&apikey=LJowCce5Pn`)
+        const chitoge = joined.trim()
+        console.log(chitoge)
+        const { data } = await axios.get(`https://api-xcoders.xyz/api/stalk/ig?username=${chitoge}&apikey=LJowCce5Pn`)
         if ((data as { error: string }).error) return void (await M.reply('Sorry, couldn\'t find'))
         const buffer = await request.buffer(data.result.profile_url).catch((e) => {
             return void M.reply(e.message)
@@ -35,7 +35,7 @@ export default class Command extends BaseCommand {
                     MessageType.image,
                     undefined,
                     undefined,
-                    `✔ *Verified*:${data.result.is_verified}\n🗣 *Private*:${data.result.is_private}\n🎛 *Postcount*:${data.result.posts_coun}\n🍃 *Following*:${data.result.following}\n🗻 *Followers*:${data.result.followers}\n📖 *Bio*:${data.result.biography}\n📃 *Fullname*:${data.result.full_name}\n🀄 *Username*: ${data.result.username}\n`,
+                    `\n👽 *Username*: ${data.result.username}\n\n✔️ *Verified*:${data.result.is_verified}\n\n📦 *Private*:${data.result.is_private}\n\n⌛ *Postcount*:${data.result.posts_coun}\n\n🚀 *Following*:${data.result.following}\n\n🌊 *Followers*:${data.result.followers}\n\n📙 *Bio*:${data.result.biography}\n\n🎀 *Fullname*:${data.result.full_name}\n`,
                     undefined
                 ).catch((e) => {
                     console.log(`This error occurs when an image is sent via M.reply()\n Child Catch Block : \n${e}`)
