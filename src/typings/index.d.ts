@@ -47,6 +47,7 @@ export interface IUser {
     ban: boolean
     warnings: number
     Xp: number
+    Coin: number
 }
 
 export interface IFeature {
