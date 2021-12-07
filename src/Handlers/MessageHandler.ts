@@ -84,7 +84,14 @@ export default class MessageHandler {
             await command.run(M, this.parseArgs(args))
             if (command.config.baseXp) {
                 await this.client.setXp(M.sender.jid, command.config.baseXp || 10, 50)
+            },
+       // Delete this block if any error
+        try {
+            await command.run(M, this.parseArgs(args))
+            if (command.config.baseCoin) {
+                await this.client.setCoin(M.sender.jid, command.config.baseCoin || 10, 50)
             }
+        //Delete end
             // eslint-disable-next-line @typescript-eslint/no-explicit-any
         } catch (err: any) {
             return void this.client.log(err.message, true)
