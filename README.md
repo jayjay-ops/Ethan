@@ -1,3 +1,5 @@
+<!--
+
 <div align="center">
 <a href="https://ibb.co/wQ4GK21"><img src="https://i.ibb.co/HPqwr9Q/whatsapp-botto-void-init.png" alt="whatsapp-botto-void-init" border="0"></a>
 
@@ -63,3 +65,4 @@ Use any one of the above to deploy
 Distributed under the GNU AFFERO GENERAL PUBLIC License. See [LICENSE](/LICENSE)
 for more information.
 
+-->
