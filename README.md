@@ -126,7 +126,7 @@ for more information.
 <p>
 <a href="https://wa.me/2349051064375?text=Ethan%20Help" target="blank"><img src="https://img.shields.io/badge/WhatsApp Ethan-Bot v2.5-30302f?style=flat&logo=whatsapp"></a><br/><br/>
 𝑊ℎ𝑎𝑡𝑠𝑎𝑝𝑝 ℎ𝑒𝑙𝑝 𝐺𝑟𝑜𝑢𝑝
-<a href="https://chat.whatsapp.com/JlGNyRC9TMI07r1Fvt9fTU" target="blank"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=green"; height= "30px"></a>
+<a href="https://chat.whatsapp.com/JlGNyRC9TMI07r1Fvt9fTU" target="blank"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=green"; height= "30px" width= "30px"></a>
 </p>
 
 
