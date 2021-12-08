@@ -111,6 +111,13 @@ Open App Termux
 Scan Qr Code with ur Whatsapp
 </details>
 
+<details close="close">
+  <summary>TOOLS & INSTALLATION Ethan-Bot</summary>
+
+### Features of the Repo
+To view all features, click here➡️[Kaoi_featuresList.md](https://github.com/jayjay-ops/Ethan/blob/main/Features.md)
+</details>
+
 <details open="open">
   <summary>CONTACTS</summary>
 
