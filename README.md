@@ -1,7 +1,7 @@
 <!--
 
 <div align="center">
-<a href="https://ibb.co/wQ4GK21"><img src="https://i.ibb.co/HPqwr9Q/whatsapp-botto-void-init.png" alt="whatsapp-botto-void-init" border="0"></a>
+<a href="<img src="https://i.ibb.co/HPqwr9Q/whatsapp-botto-void-init.png" alt="whatsapp-botto-void-init" border="0"></a>
 
 # **Ethan : Upgrade of All Automation**
 
@@ -69,7 +69,7 @@ for more information.
 
 
 
-<a href="https://ibb.co/wQ4GK21"><img src="https://i.ibb.co/HPqwr9Q/botto.png" alt="botto.png" border="0"></a>
+<img src="https://i.ibb.co/HPqwr9Q/botto.png" alt="botto.png" border="0">
 
 <details close="close">
    <summary>𝑩𝑼𝑻𝑻𝑶𝑵</summary>
