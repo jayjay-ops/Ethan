@@ -74,7 +74,7 @@ for more information.
  
  
 <details close="close">
-  <summary>TOOLS & INSTALLATION StarDash</summary>
+  <summary>TOOLS & INSTALLATION Ethan-Bot</summary>
   
 ### Tools
 Install to use Bot
@@ -113,7 +113,7 @@ Scan Qr Code with ur Whatsapp
 ### Bot
 Contact me for Questions
 <p>
-<a href="https://wa.me/4917626388837?text=StarDashHelp" target="blank"><img src="https://img.shields.io/badge/WhatsApp StarDash Bot v3-30302f?style=flat&logo=whatsapp" /></a>
+<a href="https://wa.me/2349051064375?text=Ethan%20Help" target="blank"><img src="https://img.shields.io/badge/WhatsApp Ethan-Bot v2.5-30302f?style=flat&logo=whatsapp" /></a>
 </p>
 
 
