@@ -73,9 +73,9 @@ for more information.
 
 <details close="close">
    <summary>𝑩𝑼𝑻𝑻𝑶𝑵 : If you are deploying normally</summary>
+   [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/jayjay-ops/Ethan/blob/main)
 </details>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/jayjay-ops/Ethan/blob/main)
  
  
 <details close="close">
