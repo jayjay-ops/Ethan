@@ -72,16 +72,16 @@ for more information.
 <img align="center" height="auto" src="https://github.com/joewilliams007/StarDash/blob/main/media/shiba.jpg"/>
 
 
-Button : If you are deploying normally
+𝑩𝑼𝑻𝑻𝑶𝑵 : If you are deploying normally
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/jayjay-ops/Ethan/blob/main)
  
  
 <details close="close">
-  <summary>TOOLS & INSTALLATION Ethan-Bot</summary>
+  <summary>𝑻𝒐𝒐𝒍𝒔 & 𝑰𝒏𝒔𝒕𝒂𝒍𝒍𝒂𝒕𝒊𝒐𝒏 𝒐𝒇 𝑬𝒕𝒉𝒂𝒏-𝑩𝒐𝒕</summary>
   
-### Tools
-Install to use Bot
+### 𝑻𝒐𝒐𝒍𝒔
+𝑰𝒏𝒔𝒕𝒂𝒍𝒍 𝒕𝒐 𝒖𝒔𝒆 𝑩𝒐𝒕
 | App | Link |
 |--------|--------|
 | **Termux** | [Download Termux](https://play.google.com/store/apps/details?id=com.termux) |
@@ -94,8 +94,8 @@ Install to use Bot
   </p>
 
 
-### Install With Termux
-Open App Termux
+### 𝑰𝒏𝒔𝒕𝒂𝒍𝒍 𝒘𝒊𝒕𝒉 𝒕𝒆𝒓𝒎𝒖𝒙
+𝑶𝒑𝒆𝒏 𝒂𝒑𝒑 𝒕𝒆𝒓𝒎𝒖𝒙
 
 ```bash
 > termux-setup-storage
@@ -108,20 +108,20 @@ Open App Termux
 > npm start
 ```
 
-Scan Qr Code with ur Whatsapp
+𝑺𝒄𝒂𝒏 𝑸𝑹 𝒄𝒐𝒅𝒆 𝒂𝒏𝒅 𝑬𝒏𝒋𝒐𝒚...
 </details>
 
 <details close="close">
-  <summary>TOOLS & INSTALLATION Ethan-Bot</summary>
+  <summary>𝑭𝒆𝒂𝒕𝒖𝒓𝒆𝒔 𝒐𝒇 𝑬𝒕𝒉𝒂𝒏-𝑩𝒐𝒕</summary>
 
-### Features of the Repo
-To view all features, click here➡️[Kaoi_featuresList.md](https://github.com/jayjay-ops/Ethan/blob/main/Features.md)
+### 𝑭𝒆𝒂𝒕𝒖𝒓𝒆𝒔 𝒐𝒇 𝒕𝒉𝒊𝒔 𝑹𝒆𝒑𝒐𝒔𝒊𝒕𝒐𝒓𝒚
+𝑇𝑜 𝑣𝑖𝑒𝑤 𝑎𝑙𝑙 𝑓𝑒𝑎𝑡𝑢𝑟𝑒𝑠, 𝐶𝑙𝑖𝑐𝑘 ℎ𝑒𝑟𝑒 ➡️[Kaoi_featuresList.md](https://github.com/jayjay-ops/Ethan/blob/main/Features.md)
 </details>
 
 <details open="open">
-  <summary>CONTACTS</summary>
+  <summary>𝐂𝐨𝐧𝐭𝐚𝐜𝐭𝐬</summary>
 
-### Bot
+### 𝐁𝐨𝐭
 Contact me for Questions
 <p>
 <a href="https://wa.me/2349051064375?text=Ethan%20Help" target="blank"><img src="https://img.shields.io/badge/WhatsApp Ethan-Bot v2.5-30302f?style=flat&logo=whatsapp" /></a>
@@ -129,6 +129,6 @@ Contact me for Questions
 
 
 
-### Thanks to
+### 𝐓𝐡𝐚𝐧𝐤𝐬 𝐓𝐨
 <a href="https://github.com/adiwajshing/Baileys"><img src="https://img.shields.io/badge/-adiwajshing/Baileys-black?style=flat-square&logo=github"></a>
 
