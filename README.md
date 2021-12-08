@@ -119,14 +119,14 @@ for more information.
 </details>
 
 <details open="open">
-  <summary>𝐂𝐨𝐧𝐭𝐚𝐜𝐭𝐬</summary>
+  <summary>𝐂𝐨𝐧𝐭𝐚𝐜𝐭𝐬 𝐔𝐬 𝐕𝐢𝐚 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩</summary>
 
 ### 𝐁𝐨𝐭
-𝐶𝑜𝑛𝑡𝑎𝑐𝑡 𝑚𝑒 𝑓𝑜𝑟 𝑄𝑢𝑒𝑠𝑡𝑖𝑜𝑛𝑠 𝑣𝑖𝑎 𝑊ℎ𝑎𝑡𝑠𝑎𝑝𝑝
+𝐶𝑜𝑛𝑡𝑎𝑐𝑡 𝑚𝑒 𝑓𝑜𝑟 𝑄𝑢𝑒𝑠𝑡𝑖𝑜𝑛𝑠
 <p>
 <a href="https://wa.me/2349051064375?text=Ethan%20Help" target="blank"><img src="https://img.shields.io/badge/WhatsApp Ethan-Bot v2.5-30302f?style=flat&logo=whatsapp"></a><br/><br/>
-🟢 𝑊ℎ𝑎𝑡𝑠𝑎𝑝𝑝 ℎ𝑒𝑙𝑝 𝐺𝑟𝑜𝑢𝑝
-<a href="https://chat.whatsapp.com/JlGNyRC9TMI07r1Fvt9fTU" target="blank"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"</a>
+𝑊ℎ𝑎𝑡𝑠𝑎𝑝𝑝 ℎ𝑒𝑙𝑝 𝐺𝑟𝑜𝑢𝑝
+<a href="https://chat.whatsapp.com/JlGNyRC9TMI07r1Fvt9fTU" target="blank"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=black"></a>
 </p>
 
 
