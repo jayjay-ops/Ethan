@@ -69,7 +69,7 @@ for more information.
 
 
 
-<img align="center" height="auto" src="https://github.com/joewilliams007/StarDash/blob/main/media/shiba.jpg"/>
+<a href="https://ibb.co/wQ4GK21"><img src="https://i.ibb.co/HPqwr9Q/botto.png" alt="botto.png" border="0"></a>
 
 <details close="close">
    <summary>𝑩𝑼𝑻𝑻𝑶𝑵</summary>
