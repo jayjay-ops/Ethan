@@ -69,7 +69,7 @@ for more information.
 
 
 
-<img src="https://i.ibb.co/HPqwr9Q/botto.png" alt="botto.png" border="0">
+<img src="botto.png" border="0">
 
 <details close="close">
    <summary>𝑩𝑼𝑻𝑻𝑶𝑵</summary>
