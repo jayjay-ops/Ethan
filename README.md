@@ -115,14 +115,14 @@ for more information.
   <summary>𝑭𝒆𝒂𝒕𝒖𝒓𝒆𝒔 𝒐𝒇 𝑬𝒕𝒉𝒂𝒏-𝑩𝒐𝒕</summary>
 
 ### 𝑭𝒆𝒂𝒕𝒖𝒓𝒆𝒔 𝒐𝒇 𝒕𝒉𝒊𝒔 𝑹𝒆𝒑𝒐𝒔𝒊𝒕𝒐𝒓𝒚
-𝑇𝑜 𝑣𝑖𝑒𝑤 𝑎𝑙𝑙 𝑓𝑒𝑎𝑡𝑢𝑟𝑒𝑠, 𝐶𝑙𝑖𝑐𝑘 ℎ𝑒𝑟𝑒 ➡️[Kaoi_featuresList.md](https://github.com/jayjay-ops/Ethan/blob/main/Features.md)
+𝑇𝑜 𝑣𝑖𝑒𝑤 𝑎𝑙𝑙 𝑓𝑒𝑎𝑡𝑢𝑟𝑒𝑠, 𝐶𝑙𝑖𝑐𝑘 ➪ <a href= "https://github.com/jayjay-ops/Ethan/blob/main/Features.md">ℎ𝑒𝑟𝑒</a>
 </details>
 
 <details open="open">
   <summary>𝐂𝐨𝐧𝐭𝐚𝐜𝐭𝐬</summary>
 
 ### 𝐁𝐨𝐭
-Contact me for Questions
+𝐶𝑜𝑛𝑡𝑎𝑐𝑡 𝑚𝑒 𝑓𝑜𝑟 𝑄𝑢𝑒𝑠𝑡𝑖𝑜𝑛𝑠 𝑣𝑖𝑎 𝑊ℎ𝑎𝑡𝑠𝑎𝑝𝑝
 <p>
 <a href="https://wa.me/2349051064375?text=Ethan%20Help" target="blank"><img src="https://img.shields.io/badge/WhatsApp Ethan-Bot v2.5-30302f?style=flat&logo=whatsapp" /></a>
 </p>
