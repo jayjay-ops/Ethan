@@ -68,7 +68,7 @@ for more information.
 -->
 
 
-<video src="https://github.com/jayjay-ops/Ethan/blob/main/assets/videos/Ethan3.mp4" alt="whatsapp-botto-void-init" border="0"></video>
+<img src="https://github.com/jayjay-ops/Ethan/blob/main/assets/videos/Ethan3.mp4" alt="whatsapp-botto-void-init">
 
 <details close="close">
    <summary>𝑩𝒖𝒕𝒕𝒐𝒏</summary>
