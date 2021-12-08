@@ -73,7 +73,7 @@ for more information.
 
 <details close="close">
    <summary>𝑩𝑼𝑻𝑻𝑶𝑵</summary>
-###𝐼𝑓 𝑦𝑜𝑢 𝑎𝑟𝑒 𝐷𝑒𝑝𝑙𝑜𝑦𝑖𝑛𝑔 𝑁𝑜𝑟𝑚𝑎𝑙
+### 𝐼𝑓 𝑦𝑜𝑢 𝑎𝑟𝑒 𝐷𝑒𝑝𝑙𝑜𝑦𝑖𝑛𝑔 𝑁𝑜𝑟𝑚𝑎𝑙
    <a href= "https://www.herokucdn.com/deploy/button.pnghttps://heroku.com/deploy?template=https://github.com/jayjay-ops/Ethan/blob/main"></a>
 </details>
 
