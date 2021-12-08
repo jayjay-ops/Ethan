@@ -71,8 +71,9 @@ for more information.
 
 <img align="center" height="auto" src="https://github.com/joewilliams007/StarDash/blob/main/media/shiba.jpg"/>
 
-
-𝑩𝑼𝑻𝑻𝑶𝑵 : If you are deploying normally
+<details close="close">
+   <summary>𝑩𝑼𝑻𝑻𝑶𝑵 : If you are deploying normally</summary>
+</details>
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/jayjay-ops/Ethan/blob/main)
  
