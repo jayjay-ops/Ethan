@@ -20,7 +20,6 @@ export default class Command extends BaseCommand {
     run = async (M: ISimplifiedMessage): Promise<void> => {
         if (M.quoted?.sender) M.mentioned.push(M.quoted.sender)
         const user = M.mentioned[0] ? M.mentioned[0] : M.sender.jid
-        const coin = (await this.client.getUser(user)).Coin)
         let username = user === M.sender.jid ? M.sender.username : ''
         if (!username) {
             const contact = this.client.getContact(user)
@@ -34,6 +33,7 @@ export default class Command extends BaseCommand {
             pfp =
                 'https://wallpaperaccess.com/full/5304840.png'
         }
+        const coin = (await this.client.getUser(user)).Coin
         const exp = (await this.client.getUser(user)).Xp
         let role
         if (exp < 500) {
