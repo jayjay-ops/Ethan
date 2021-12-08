@@ -68,8 +68,7 @@ for more information.
 -->
 
 
-<div align="center">
-<a href="<img src="https://github.com/jayjay-ops/Ethan/blob/main/assets/videos/Ethan2.mp4" alt="whatsapp-botto-void-init" border="0"></a>
+<img src="https://github.com/jayjay-ops/Ethan/blob/main/assets/videos/Ethan2.mp4" alt="whatsapp-botto-void-init" border="0">
 
 <details close="close">
    <summary>𝑩𝒖𝒕𝒕𝒐𝒏</summary>
