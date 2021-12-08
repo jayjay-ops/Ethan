@@ -71,7 +71,7 @@ for more information.
 
 
 <details close="close">
-   <summary>𝑩𝑼𝑻𝑻𝑶𝑵</summary>
+   <summary>𝑩𝒖𝒕𝒕𝒐𝒏</summary>
 
 ### 𝐈𝐟 𝐲𝐨𝐮 𝐚𝐫𝐞 𝐝𝐞𝐩𝐥𝐨𝐲𝐢𝐧𝐠 𝐧𝐨𝐫𝐦𝐚𝐥
    <a href= "https://heroku.com/deploy?template=https://github.com/jayjay-ops/Ethan/blob/main"><img src="https://www.herokucdn.com/deploy/button.png" target="blank"></a>
