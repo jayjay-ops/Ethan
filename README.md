@@ -69,7 +69,7 @@ for more information.
 
 
 
-<img src="botto.png" border="0">
+<a href="https://pngtree.com/freepng/robot-android-artificial-bot-technology-line-icon--vector-is_4351740.html" border="0">
 
 <details close="close">
    <summary>𝑩𝑼𝑻𝑻𝑶𝑵</summary>
