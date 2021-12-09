@@ -67,7 +67,7 @@ for more information.
 
 -->
 
-![botto](https://www.pngitem.com/middle/iRbhibT_ai-bot-png-transparent-png/)
+![botto](https://static.wikia.nocookie.net/pokemon/images/b/bc/Ethan_anime.png/revision/latest?cb=20191218165602)
 
 <details close="close">
    <summary>𝑩𝒖𝒕𝒕𝒐𝒏</summary>
