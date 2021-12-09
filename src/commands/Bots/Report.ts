@@ -18,8 +18,8 @@ export default class Command extends BaseCommand {
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
         await this.client.sendMessage(
-            client.config.mods.jid,
-            `*Report message*\n`,
+            this.client.config.mods.jid,
+            `*Report message*`,
             MessageType.text
         )
         return void M.reply('Report sent to owner'); //.catch((reason: Error) => M.reply(`an error occurred, Reason: ${reason}`))
