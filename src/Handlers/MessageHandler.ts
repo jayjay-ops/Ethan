@@ -64,7 +64,6 @@ export default class MessageHandler {
                 )} in ${chalk.cyanBright(groupMetadata?.subject || 'DM')}`
             )
         const command = this.commands.get(cmd) || this.aliases.get(cmd)
-        const icommand = this.commands.get(cmd) || this.aliases.get(cmd)
         this.client.log(
             `${chalk.green('CMD')} ${chalk.yellow(`${args[0]}[${args.length - 1}]`)} from ${chalk.green(
                 sender.username
@@ -89,16 +88,7 @@ export default class MessageHandler {
             // eslint-disable-next-line @typescript-eslint/no-explicit-any
         } catch (err: any) {
             return void this.client.log(err.message, true)
-        }
-        try {
-            await icommand.run(M, this.parseArgs(args))
-            if (icommand.config.baseCoin) {
-                await this.client.setCoin(M.sender.jid, icommand.config.baseCoin || 10, 50)
-            }
-            // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        } catch (err: any) {
-            return void this.client.log(err.message, true)
-        }
+        } 
     }
 
     moderate = async (M: ISimplifiedMessage): Promise<void> => {
