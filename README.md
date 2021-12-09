@@ -118,7 +118,7 @@ for more information.
 𝑇𝑜 𝑣𝑖𝑒𝑤 𝑎𝑙𝑙 𝑓𝑒𝑎𝑡𝑢𝑟𝑒𝑠, 𝐶𝑙𝑖𝑐𝑘 ➪ <a href= "https://github.com/jayjay-ops/Ethan/blob/main/Features.md">ℎ𝑒𝑟𝑒</a>
 </details>
 
-<details open="open">
+<details close="close">
   <summary>𝐂𝐨𝐧𝐭𝐚𝐜𝐭𝐬 𝐔𝐬 𝐕𝐢𝐚 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩</summary>
 
 ### 𝐁𝐨𝐭
