@@ -68,7 +68,7 @@ for more information.
 -->
 
 <div align="center">
-![botto](https://www.pngitem.com/middle/iRbhibT_ai-bot-png-transparent-png/)
+![botto](https://www.pngitem.com/middle/iRbhibT_ai-bot.png)
 </div>
 
 <details close="close">
