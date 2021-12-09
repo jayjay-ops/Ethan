@@ -69,6 +69,7 @@ for more information.
 
 <div align="center">
 <a href="https://telegra.ph/file/783628463bf5c861f0c1a.mp4" alt="whatsapp-botto-void-init"></a>
+</div>
 
 <details close="close">
    <summary>𝑩𝒖𝒕𝒕𝒐𝒏</summary>
@@ -76,7 +77,6 @@ for more information.
 ### 𝐈𝐟 𝐲𝐨𝐮 𝐚𝐫𝐞 𝐝𝐞𝐩𝐥𝐨𝐲𝐢𝐧𝐠 𝐧𝐨𝐫𝐦𝐚𝐥
    <a href= "https://heroku.com/deploy?template=https://github.com/jayjay-ops/Ethan/blob/main"><img src="https://www.herokucdn.com/deploy/button.png" target="blank"></a>
 </details>
-</div>
  
  
 <details close="close">
