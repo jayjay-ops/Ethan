@@ -14,7 +14,6 @@ export default class Command extends BaseCommand {
             category: 'games',
             aliases: ['truth','tr'],
             usage: `${client.config.prefix}truth`,
-            baseCoin: 5
             
         })
     }
