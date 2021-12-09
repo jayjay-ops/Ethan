@@ -67,7 +67,7 @@ for more information.
 
 -->
 
-![botto](https://www.pngitem.com/middle/iRbhibT_ai-bot.png)
+![botto](https://www.pngitem.com/middle/iRbhibT_ai-bot-png-transparent-png/)
 
 <details close="close">
    <summary>𝑩𝒖𝒕𝒕𝒐𝒏</summary>
