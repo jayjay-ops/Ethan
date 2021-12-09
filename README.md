@@ -1,7 +1,7 @@
 <!--
 
 <div align="center">
-<a href="<img src="https://github.com/jayjay-ops/Ethan/blob/main/assets/videos/Ethan2.mp4" alt="whatsapp-botto-void-init" border="0"></a>
+<a href="<img src="https://github.com/jayjay-ops/Ethan/blob/main/awhatsapp-botto-void-init" border="0"></a>
 
 # **Ethan : Upgrade of All Automation**
 
@@ -68,7 +68,7 @@ for more information.
 -->
 
 <div align="center">
-<a href="https://telegra.ph/file/783628463bf5c861f0c1a.mp4" alt="whatsapp-botto-void-init"></a>
+![whatsapp-botto-void-init](https://telegra.ph/file/783628463bf5c861f0c1a.mp4)
 </div>
 
 <details close="close">
