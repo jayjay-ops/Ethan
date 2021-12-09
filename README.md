@@ -68,7 +68,7 @@ for more information.
 -->
 
 <div align="center">
-![whatsapp-botto-void-init](https://telegra.ph/file/783628463bf5c861f0c1a.mp4)
+![botto](https://www.pngitem.com/middle/iRbhibT_ai-bot-png-transparent-png/)
 </div>
 
 <details close="close">
