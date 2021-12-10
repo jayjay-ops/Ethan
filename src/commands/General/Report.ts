@@ -16,8 +16,8 @@ export default class Command extends BaseCommand {
         })
     }
 
-    run = async (M: ISimplifiedMessage): Promise<void> => {
-       const msg = ''
+    run = async (M: ISimplifiedMessage, { joined }: IParsedArgs): Promise<void> => {
+       const msg = ""
 const mods = this.client.config.mods
 for(const numbers of mods){
 this.client.sendMEssage(numbers,msg,MessageType.text)} 
