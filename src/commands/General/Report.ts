@@ -17,10 +17,14 @@ export default class Command extends BaseCommand {
     }
 
     run = async (M: ISimplifiedMessage, { joined }: IParsedArgs): Promise<void> => {
-       const msg: string = ""
-const mods = this.client.config.mods
+       const msg: string = joined.trim().split("|");
+       const mods = this.client.config.mods
+if (msg === "")
+   return void M.reply(
+`Enter a report message`
+);
 for(const numbers of mods){
-this.client.sendMEssage(numbers,msg,MessageType.text)} 
+this.client.sendMessage(numbers,msg,MessageType.text)} 
 }
 
 
