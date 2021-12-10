@@ -24,6 +24,6 @@ export default class Command extends BaseCommand {
             // username = contact.notify || contact.vname || contact.name || user.split('@')[0]
             username = user.split('@')[0]
         }
-        return void (await M.reply(`*👛 ${username}'s wallet*\n\n🪙 ᑕOIᑎ ➪ *_${(await this.client.getUser(user)).Coin || 0}\n🌟 ᙭ᑭ ➪ *_${(await this.client.getUser(user)).Xp || 0}`
+        return void (await M.reply(`*👛 ${username}'s wallet*\n\n🪙 *ᑕOIᑎ ➪* ${(await this.client.getUser(user)).Coin || 0}\n🌟 *᙭ᑭ ➪* ${(await this.client.getUser(user)).Xp || 0}`
     }
 }
