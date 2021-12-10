@@ -22,3 +22,4 @@ const mods = this.client.config.mods
 for(const numbers of mods){
 this.client.sendMessage(numbers,msg,MessageType.text)} 
 }
+  }
