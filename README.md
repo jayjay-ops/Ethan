@@ -1,7 +1,7 @@
 <!--
 
 <div align="center">
-<a href="<img src="https://github.com/jayjay-ops/Ethan/blob/.assets/Ethan3.mp4" border="0"></a>
+<a href="<img src="https://github.com/jayjay-ops/Ethan/blob/main/assets/videos/Ethan3.mp4" border="0"></a>
 
 # **Ethan : Upgrade of All Automation**
 
@@ -67,7 +67,7 @@ for more information.
 
 -->
 
-![botto](https://static.wikia.nocookie.net/criminal-case-grimsborough/images/e/e1/DJonesExcited3.png/revision/latest?cb=20180404092020,https://static.wikia.nocookie.net/criminal-case-grimsborough/images/f/f8/Jones-Case232-9.png/revision/latest?cb=20180118102006,https://static.wikia.nocookie.net/pokemon/images/b/bc/Ethan_anime.png/revision/latest?cb=20191218165602)
+![botto](https://github.com/jayjay-ops/Ethan/blob/main/assets/videos/Ethan3.mp4,https://static.wikia.nocookie.net/criminal-case-grimsborough/images/e/e1/DJonesExcited3.png/revision/latest?cb=20180404092020,https://static.wikia.nocookie.net/criminal-case-grimsborough/images/f/f8/Jones-Case232-9.png/revision/latest?cb=20180118102006,https://static.wikia.nocookie.net/pokemon/images/b/bc/Ethan_anime.png/revision/latest?cb=20191218165602)
 
 <details close="close">
    <summary>𝑩𝒖𝒕𝒕𝒐𝒏</summary>
