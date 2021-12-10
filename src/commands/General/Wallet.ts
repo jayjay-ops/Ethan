@@ -25,5 +25,5 @@ export default class Command extends BaseCommand {
             username = user.split('@')[0]
         }
         return void (await M.reply(`*👛 ${username}'s wallet*\n\n🪙 *ᑕOIᑎ ➪* ${(await this.client.getUser(user)).Coin || 0}\n🌟 *᙭ᑭ ➪* ${(await this.client.getUser(user)).Xp || 0}`
-  ,  },
+    },
 }
