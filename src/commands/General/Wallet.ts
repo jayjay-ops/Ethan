@@ -7,11 +7,11 @@ import { ISimplifiedMessage } from '../../typings'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: '➣ xᴘ',
-            description: "Displays User's Xp 🌟",
+            command: '➣ ᴡᴀʟʟᴇᴛ',
+            description: "Displays User's wallet 💰",
             category: 'general',
-            usage: `${client.config.prefix}xp (@tag)`,
-            aliases: ['exp', 'xp', 'experience'],
+            usage: `${client.config.prefix}wallet (@tag)`,
+            aliases: ['bank', 'wallet'],
             baseXp: 10
         })
     }
