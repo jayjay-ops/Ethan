@@ -17,12 +17,9 @@ export default class Command extends BaseCommand {
     }
 
     run = async (M: ISimplifiedMessage, { joined }: IParsedArgs): Promise<void> => {
-       const msg: string = joined.trim().split("|");
+       if (!joined) return void M.reply('Please enter a report message!');
+       const msg = joined.trim()
        const mods = this.client.config.mods
-if (msg === "")
-   return void M.reply(
-`Enter a report message`
-);
 for(const numbers of mods){
 this.client.sendMessage(numbers,msg,MessageType.text)} 
 }
