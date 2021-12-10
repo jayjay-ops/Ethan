@@ -20,19 +20,7 @@ export default class Command extends BaseCommand {
        if (!joined) return void M.reply('Please enter a report message!');
        const msg = joined.trim()
        const mods = this.client.config.mods
-for(const numbers of mods){
-this.client.sendMessage(numbers,msg,MessageType.text)} 
+       for(const numbers of mods){
+       this.client.sendMessage(numbers,msg,MessageType.text)} 
+   }
 }
-
-
-
-/*
-const chitoge: any = joined.trim().split("|");
-		const term: string = chitoge[0];
-		const amount: number = chitoge[1];
-		if (term === "")
-			return void M.reply(
-				`Give me the wallpaper term and page to search, Baka!`
-			);
-
-*/
