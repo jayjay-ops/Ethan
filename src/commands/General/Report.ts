@@ -17,8 +17,21 @@ export default class Command extends BaseCommand {
     }
 
     run = async (M: ISimplifiedMessage, { joined }: IParsedArgs): Promise<void> => {
-       const msg = ""
+       const msg: string = ""
 const mods = this.client.config.mods
 for(const numbers of mods){
 this.client.sendMEssage(numbers,msg,MessageType.text)} 
 }
+
+
+
+/*
+const chitoge: any = joined.trim().split("|");
+		const term: string = chitoge[0];
+		const amount: number = chitoge[1];
+		if (term === "")
+			return void M.reply(
+				`Give me the wallpaper term and page to search, Baka!`
+			);
+
+*/
