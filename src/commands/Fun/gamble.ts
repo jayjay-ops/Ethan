@@ -27,7 +27,8 @@ const texts = joined.trim().split("|");
 			);
 		const opp = texts[0]; //your opinion 
 		const value = texts[1];// your value
-		const wallet = (await this.client.getUser(user).Coin)
+                const user = M.mentioned[0] ? M.mentioned[0] : M.sender.jid
+		const coin = (await this.client.getUser(user).Coin)
 		const bank = 5000
 		if (!value) return void M.reply("Give me the value, Baka!");
 		if (!opp) return void M.reply("Give me the direction, Baka!");
