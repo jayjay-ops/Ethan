@@ -19,7 +19,7 @@ export default class Command extends BaseCommand {
         if (M.quoted?.sender) M.mentioned.push(M.quoted.sender)
         const user = M.mentioned[0] ? M.mentioned[0] : M.sender.jid
         let coin = 1000
-        await this.client.setCoin(user,coin);
+        await this.client.setCoin(user)+= 1000;
               M.reply("1000 has been added to your account")
         
     }
