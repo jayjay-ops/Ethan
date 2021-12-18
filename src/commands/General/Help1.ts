@@ -1,3 +1,4 @@
+/*
 
 import { MessageType, Mimetype } from '@adiwajshing/baileys'
 import { join } from 'path'
@@ -51,22 +52,7 @@ export default class Command extends BaseCommand {
     }
 }
 
-
-
-
-/*
-
-//-- owner bot
-case 'owner':
-case 'besitzer':
-    
-    owner = await fs.readFileSync('./images/menu.jpg').toString('base64')
-    capt = "𝙲𝚑𝚒𝚕𝚕𝚘𝚌𝚝𝚒 ✯"
-    const been = {
-    text: `𝑇ℎ𝑖𝑠 𝑖𝑠 𝑚𝑦 𝑜𝑤𝑛𝑒𝑟. 𝐶ℎ𝑎𝑡 𝑤𝑖𝑡ℎ ℎ𝑖𝑚 𝑖𝑓 𝑦𝑜𝑢 𝑤𝑎𝑛𝑡.`,
-}
-replyimg(been, text, capt, owner)
-break
+*/
 
 
 
@@ -92,10 +78,10 @@ export default class Command extends BaseCommand {
     }
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
-        const n = await fs.readFileSync(['./assets/images/thumb.jpg']).toString('base64');
+        const n = await fs.readFileSync(['./assets/images/thumb.jpeg']).toString('base64');
         let ethan = n[Math.floor(Math.random() * n.length)]
         return void this.client.sendMessage(M.from, { url: ethan }, MessageType.image, {quoted:M.WAMessage,
-            mimetype: Mimetype.image,
+            mimetype: Mimetype.jpeg,
             caption: `-Ⓖ︎Ⓔ︎Ⓝ︎Ⓔ︎Ⓡ︎Ⓐ︎Ⓛ︎ 🎐
 ──────────────
 ⛲ ${this.client.config.prefix}ᴡᴀʟʟᴘᴀᴘᴇʀ
@@ -126,6 +112,5 @@ export default class Command extends BaseCommand {
 
 
 
-*/
 
 
