@@ -63,8 +63,8 @@ import MessageHandler from '../../Handlers/MessageHandler'
 import BaseCommand from '../../lib/BaseCommand'
 import WAClient from '../../lib/WAClient'
 import { ISimplifiedMessage } from '../../typings'
-import * from 'fs'
-import * from 'path'
+import * as fs from 'fs'
+import * as path from 'path'
 
 
 export default class Command extends BaseCommand {
