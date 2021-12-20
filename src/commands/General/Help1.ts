@@ -1,4 +1,4 @@
-/*
+
 
 import { MessageType, Mimetype } from '@adiwajshing/baileys'
 import { join } from 'path'
@@ -52,10 +52,10 @@ export default class Command extends BaseCommand {
     }
 }
 
-*/
 
 
 
+/*
 
 import { MessageType, Mimetype } from '@adiwajshing/baileys'
 import { join } from 'path'
@@ -110,7 +110,7 @@ export default class Command extends BaseCommand {
 }
 
 
-
+*/
 
 
 
