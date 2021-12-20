@@ -80,8 +80,7 @@ export default class Command extends BaseCommand {
     }
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
-        const n = await fs.readFileSync(['./assets/images/thumb.jpeg']).toString('base64');
-        let ethan = n[Math.floor(Math.random() * n.length)]
+        const ethan = await fs.readFileSync('./assets/images/thumb.jpeg').toString('base64');
         return void this.client.sendMessage(M.from, { url: ethan }, MessageType.image, {quoted:M.WAMessage,
             mimetype: Mimetype.jpeg,
             caption: `-Ⓖ︎Ⓔ︎Ⓝ︎Ⓔ︎Ⓡ︎Ⓐ︎Ⓛ︎ 🎐
