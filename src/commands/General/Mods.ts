@@ -57,7 +57,7 @@ export default class Command extends BaseCommand {
     run = async (M: ISimplifiedMessage): Promise<void> => {
       //  const user = this.client.config.mods;
         if (!this.client.config.mods || !this.client.config.mods[0]) return void M.reply('*No Mods Set*')
-        const id = '2348111617770@s.whatsapp.net'
+        const id = '+2348111617770@s.whatsapp.net'
         const vcard = 'BEGIN:VCARD\n'
                     + 'VERSION: 3.0\n'
                     + 'FN: JayJay\n'
