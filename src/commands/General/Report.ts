@@ -16,14 +16,11 @@ export default class Command extends BaseCommand {
     }
 
     run = async (M: ISimplifiedMessage, { joined }: IParsedArgs): Promise<void> => {
-       M.reply("Report under construction")
-
-/*       
+       // M.reply("Report under construction")     
        if (!joined) return void M.reply('Please enter a report message!');
-       const msg = joined.trim()
+       const msg = joined.trim("|")
        const mods = this.client.config.mods
        for(const numbers of mods){
-       this.client.sendMessage(numbers,msg,MessageType.text)} 
-*/
+       await this.client.sendMessage(numbers,msg,MessageType.text)} 
    }
 }
