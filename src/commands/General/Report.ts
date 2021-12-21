@@ -20,7 +20,7 @@ export default class Command extends BaseCommand {
        if (!joined) return void M.reply('Please enter a report message!');
        const msg = joined.trim()
        const mods = this.client.config.mods;
-       for(const numbers of mods){
-       await this.client.sendMessage(numbers,msg,MessageType.text)} 
+       for(const numbers of mods)
+          await this.client.sendMessage(numbers,msg,MessageType.text) 
    }
 }
