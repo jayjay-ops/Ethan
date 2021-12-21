@@ -69,7 +69,7 @@ export default class WAClient extends Base {
 
     emitNewMessage = async (M: Promise<ISimplifiedMessage>): Promise<void> => void this.emit('new-message', await M)
 
-    supportedMediaMessages = [MessageType.image, MessageType.video]
+    supportedMediaMessages = [MessageType.image, MessageType.video, MessageType.contact]
 
     simplifyMessage = async (M: WAMessage): Promise<ISimplifiedMessage> => {
         if (M.message?.ephemeralMessage) M.message = M.message.ephemeralMessage.message
@@ -91,7 +91,7 @@ export default class WAClient extends Base {
                 ? M.message.conversation
                 : this.supportedMediaMessages.includes(type)
                 ? this.supportedMediaMessages
-                      .map((type) => M.message?.[type as MessageType.image | MessageType.video]?.caption)
+                      .map((type) => M.message?.[type as MessageType.image | MessageType.contact | MessageType.video]?.caption)
                       .filter((caption) => caption)[0] || ''
                 : type === MessageType.extendedText && M.message?.extendedTextMessage?.text
                 ? M.message?.extendedTextMessage.text
