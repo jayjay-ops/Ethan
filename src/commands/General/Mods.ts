@@ -55,17 +55,16 @@ export default class Command extends BaseCommand {
     }
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
-        const user = this.client.config.mods;
+      //  const user = this.client.config.mods;
         if (!this.client.config.mods || !this.client.config.mods[0]) return void M.reply('*No Mods Set*')
-        const id = `${this.client.getContact(user)}`
-     // const filteredMap = this.client.config.mods.map((mod) => this.client.getContact(mod)).filter((user) => user)
+        const id = '2348111617770@s.whatsapp.net'
         const vcard = 'BEGIN:VCARD\n'
                     + 'VERSION: 3.0\n'
                     + 'FN: JayJay\n'
                     + 'ORG:Microsoft;\n'
                     + 'TEL;type=CELL;type=VOICE;waid=2348111617770:+234 811 161 7770\n' // WhatsApp ID + phone number
                     + 'END:VCARD'
-        return void this.client.sendMessage(id, {displayname: "JayJay", vcard: vcard}, MessageType.contact)
+        const msg = await this.client.sendMessage(id, {displayname: "JayJay", vcard: vcard}, MessageType.contact)
     }
 }
 
