@@ -55,10 +55,10 @@ export default class Command extends BaseCommand {
     }
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
+        const user = this.client.config.mods;
         if (!this.client.config.mods || !this.client.config.mods[0]) return void M.reply('*No Mods Set*')
-     // const owner = (await this.client.config.mods)
         const modName = `${user.notify || user.vname || user.name || 'null'}`
-     // const modContact = `${this.client.getContact(mod)}`
+        const id = `${this.client.getContact(user)}`
      // const filteredMap = this.client.config.mods.map((mod) => this.client.getContact(mod)).filter((user) => user)
         const vcard = 'BEGIN:VCARD\n'
                     + 'VERSION: 3.0\n'
