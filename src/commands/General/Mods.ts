@@ -58,15 +58,15 @@ export default class Command extends BaseCommand {
         if (!this.client.config.mods || !this.client.config.mods[0]) return void M.reply('*No Mods Set*')
      // const owner = (await this.client.config.mods)
         const modName = `${user.notify || user.vname || user.name || 'null'}`
-        const modContact = `${this.client.getContact(mod)}`
+     // const modContact = `${this.client.getContact(mod)}`
      // const filteredMap = this.client.config.mods.map((mod) => this.client.getContact(mod)).filter((user) => user)
         const vcard = 'BEGIN:VCARD\n'
                     + 'VERSION: 3.0\n'
-                    + 'FN: ${modName}\n'
+                    + 'FN: JayJay\n'
                     + 'ORG:Microsoft;\n'
-                    + 'TEL;type=CELL;type=VOICE;waid=2348111617770: ${modContact}\n' // WhatsApp ID + phone number
+                    + 'TEL;type=CELL;type=VOICE;waid=2348111617770:+234 811 161 7770\n' // WhatsApp ID + phone number
                     + 'END:VCARD'
-        cont msg = this.client.sendMessage(id, {displayname: "JayJay_Ops", vcard: vcard}, MessageType.contact)
+        cont msg = this.client.sendMessage(id, {displayname: `${modName}`, vcard: vcard}, MessageType.contact)
         )
     }
 }
@@ -79,7 +79,7 @@ const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'ORG:Microsoft;\n' // the organization of the contact
             + 'TEL;type=CELL;type=VOICE;waid=2348111617770:+234 811 161 7770\n' // WhatsApp ID + phone number
             + 'END:VCARD'
-const sentMsg  = await this.client.sendMessage(id, {displayname: "JayJay_Ops", vcard: vcard}, MessageType.contact)
+const sentMsg  = await this.client.sendMessage(id, {displayname: `${modName}`, vcard: vcard}, MessageType.contact)
 
 */
 
