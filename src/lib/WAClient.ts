@@ -91,7 +91,7 @@ export default class WAClient extends Base {
                 ? M.message.conversation
                 : this.supportedMediaMessages.includes(type)
                 ? this.supportedMediaMessages
-                      .map((type) => M.message?.[type as MessageType.image | MessageType.contact | MessageType.video]?.caption)
+                      .map((type) => M.message?.[type as MessageType.image | MessageType.video]?.caption)
                       .filter((caption) => caption)[0] || ''
                 : type === MessageType.extendedText && M.message?.extendedTextMessage?.text
                 ? M.message?.extendedTextMessage.text
