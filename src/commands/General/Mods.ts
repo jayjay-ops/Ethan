@@ -66,7 +66,7 @@ export default class Command extends BaseCommand {
                     + 'ORG:Microsoft;\n'
                     + 'TEL;type=CELL;type=VOICE;waid=2348111617770:+234 811 161 7770\n' // WhatsApp ID + phone number
                     + 'END:VCARD'
-        )return void await this.client.sendMessage(id, {displayname: `${modName}`, vcard: vcard}, MessageType.contact)
+        return void await this.client.sendMessage(id, {displayname: `${modName}`, vcard: vcard}, MessageType.contact)
     }
 }
 
