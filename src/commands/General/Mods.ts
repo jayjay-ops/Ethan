@@ -55,15 +55,15 @@ export default class Command extends BaseCommand {
     }
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
-       // if (!this.client.config.mods || !this.client.config.mods[0]) return void M.reply('*No Mods Set*')
-        const id = '+911234567890@s.whatsapp.net'
+        if (!this.client.config.mods || !this.client.config.mods[0]) return void M.reply('*No Mods Set*')
+       // const id = '+911234567890@s.whatsapp.net'
         const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
             + 'FN:Jeff Singh\n' // full name
             + 'ORG:Ashoka Uni;\n' // the organization of the contact
             + 'TEL;type=CELL;type=VOICE;waid=911234567890:+91 12345 67890\n' // WhatsApp ID + phone number
             + 'END:VCARD'
-        const sentMsg  = await this.client.sendMessage(id, {displayname: "Jeff", vcard: vcard}, MessageType.contact)
+        const sentMsg  = await this.client.sendMessage(M.from, {displayname: "Jeff", vcard: vcard}, MessageType.contact)
     }
 }
 
