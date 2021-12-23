@@ -1,4 +1,4 @@
-/*
+
 
 import MessageHandler from '../../Handlers/MessageHandler'
 import BaseCommand from '../../lib/BaseCommand'
@@ -32,8 +32,8 @@ export default class Command extends BaseCommand {
     }
 }
 
-*/
 
+/*
 
 
 import { MessageType, MessageOptions, Mimetype } from '@adiwajshing/baileys'
@@ -69,5 +69,5 @@ export default class Command extends BaseCommand {
 
 
 
-
+*/
 
