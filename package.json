@@ -72,6 +72,7 @@
         "lyrics-monarch-api": "^2.1.0",
         "mailist": "^1.0.3",
         "mal-scraper": "^2.11.3",
+        "discord-mongoose-economy": "^1.2.0",
         "mangadex-full-api": "^5.7.0",
         "mathjs": "^10.0.0",
         "moment": "^2.29.1",
