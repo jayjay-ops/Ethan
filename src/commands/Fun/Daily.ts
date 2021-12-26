@@ -20,7 +20,7 @@ export default class Command extends BaseCommand {
 
             description: "gives you your daily coins",
 
-            category: 'economy',
+            category: 'fun',
 
             usage: `${client.config.prefix}daily (@tag)`,
 
