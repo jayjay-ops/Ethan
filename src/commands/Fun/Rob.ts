@@ -6,7 +6,7 @@ import WAClient from '../../lib/WAClient'
 import { ISimplifiedMessage } from '../../typings'
 import axios from 'axios'
 const eco = require('discord-mongoose-economy');
-const ty = eco.connect('mongodb+srv://das:das1234@cluster0.1ydfc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority');
+const ty = eco.connect('mongodb+srv://jayjay-ops:jayjay-ops@cluster0.orjsg.mongodb.net/test');
 
 
 export default class Command extends BaseCommand {
@@ -15,7 +15,7 @@ export default class Command extends BaseCommand {
             command: 'rob',
             aliases: ['rob', 'thief'],
             description: 'rob your friend ',
-            category: 'economy',
+            category: 'fun',
             dm: true,
             usage: `${client.config.prefix}rob`
         })
