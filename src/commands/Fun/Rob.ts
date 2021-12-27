@@ -5,14 +5,17 @@ import BaseCommand from '../../lib/BaseCommand'
 import WAClient from '../../lib/WAClient'
 import { ISimplifiedMessage } from '../../typings'
 import axios from 'axios'
+const eco = require('discord-mongoose-economy');
+const ty = eco.connect('mongodb+srv://das:das1234@cluster0.1ydfc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority');
+
 
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
             command: 'rob',
-            aliases: ['rob', 'rob'],
+            aliases: ['rob', 'thief'],
             description: 'rob your friend ',
-            category: 'fun',
+            category: 'economy',
             dm: true,
             usage: `${client.config.prefix}rob`
         })
@@ -20,31 +23,49 @@ export default class Command extends BaseCommand {
     // static count = 0
     
     run = async (M: ISimplifiedMessage): Promise<void> => {
-var typ = ["ran","rob","catch"];
+          const typ = [
+			"ran",
+			"rob",
+			"catch",
+		];
 const random = typ[Math.floor(Math.random() * typ.length)];
 if (M.quoted?.sender && !M.mentioned.includes(M.quoted.sender)) M.mentioned.push(M.quoted.sender)
         while (M.mentioned.length < 2) M.mentioned.push(M.sender.jid)
+const target =
+				M.quoted && M.mentioned.length === 0
+					? M.quoted.sender
+					: M.mentioned[0] || null;
+			if (!target || target === M.sender.jid)
+   return void M.reply("whom you wanna rob")
         const user1 = M.mentioned[0]
-        const user2 = M.mentioned[1]
-if ((await this.client.getUser(user1)).Xp || 0>500) {
-  if ((await this.client.getUser(user2)).Xp || 0>500) {
+        const user2 = target
+const cara = "cara"
+const balance1 = await eco.balance(user1, cara); //Returns wallet, bank, and bankCapacity. Also creates a USer if it doesn't exist.
+const balance2 = await eco.balance(user2, cara); //Returns wallet, bank, and bankCapacity. Also creates a USer if it doesn't exist.
+const bas1 = (balance1.wallet) > 500
+const bas2 = (balance2.wallet) > 500
+if ( (bas1) == true ) {
+  if ( (bas2) == true ) {
 let tpy = random
 switch (tpy) {
   case 'ran':
-  await M.reply (' the victim ran away')
+  await M.reply (' *your victim escaped, no lost nor gain.*')
     break
   case 'rob':
-  await M.reply('You successfully robbed  .')
+  const give = await eco.give(user2, cara, balance2.wallet);
+  const deduct1 = await eco.deduct(user1, cara, balance2.wallet);
+  await M.reply('Robbery operation successfully.')
     break
     case 'catch':
-  await M.reply('Sorry you got caught and paid $50 .')
+    const deduct2 = await eco.deduct(user2, cara, balance1.wallet);
+  await M.reply('*Sorry fbi👮 got u now pay us in $ .*')
     break
 };
 }else {
- await M.reply("sorry, you dont have sufficient Xp to rob")
+ await M.reply("*sorry, you dont have enough to pay incase you get caught.*")
 };
 }else {
- await M.reply("sorry, the user dont have sufficient coins for you to rob")
+ await M.reply("*sorry, your victim is poor let go.*")
 };
 }
 }
