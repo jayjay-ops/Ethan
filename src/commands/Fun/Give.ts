@@ -1,5 +1,5 @@
 const eco = require('discord-mongoose-economy');
- const ty = eco.connect('');
+ const ty = eco.connect('mongodb+srv://jayjay-ops:jayjay-ops@cluster0.orjsg.mongodb.net/test');
 import MessageHandler from '../../Handlers/MessageHandler'
 import BaseCommand from '../../lib/BaseCommand'
 import WAClient from '../../lib/WAClient'
@@ -10,7 +10,7 @@ export default class Command extends BaseCommand {
         super(client, handler, {
             command: 'transfer',
             description: "give money",
-            category: 'economy',
+            category: 'fun',
             usage: `${client.config.prefix}transfer [value]`,
             aliases: ['give', 'share'],
             baseXp: 10
