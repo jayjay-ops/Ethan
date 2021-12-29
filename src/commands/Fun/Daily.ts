@@ -44,7 +44,7 @@ const cara = "cara"
 
     if(daily.cd) return void M.reply(`You already claimed daily for today, come back in ${daily.cdL}`); //cdL is already formatted cooldown Left
 
-    M.reply(`you claimed ⛀${daily.amount} for daily`);
+    M.reply(`you claimed 🪙${daily.amount} for daily`);
 
 }
 
