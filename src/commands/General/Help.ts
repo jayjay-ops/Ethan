@@ -109,9 +109,9 @@ export default class Command extends BaseCommand {
         let ethan = n[Math.floor(Math.random() * n.length)]
         return void this.client.sendMessage(M.from, { url: ethan }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
-            caption: `\n\n❝ 𝑒𝑡𝒉𝑎𝑛 𝐵𝑜𝑡 𝑎𝑡 𝑦𝑜𝑢𝑟 𝑠𝑒𝑟𝑣𝑖𝑐𝑒 ❞\n\n
+            caption: `\n
 
-┌───『 𝕌𝕤𝕒𝕘𝕖 ℍ𝕒𝕟𝕕𝕠𝕦𝕥 』───
+┌───『 𝓗𝓪𝓷𝓭𝓸𝓾𝓽 』───
 │⊶ 𝑼𝒔𝒆 ${this.client.config.prefix}𝒉𝒆𝒍𝒑 𝒕𝒐 𝒔𝒆𝒆 𝒄𝒐𝒎𝒎𝒂𝒏𝒅𝒔
 │⊶ 𝑹𝒆𝒂𝒅 𝑩𝒐𝒕𝒕𝒐 𝒓𝒖𝒍𝒆𝒔 𝒃𝒆𝒇𝒐𝒓𝒆 𝒖𝒔𝒆
 │⊶ © 𝑪𝒐𝒑𝒚𝒓𝒊𝒈𝒉𝒕 𝒌𝒂𝒐𝒊
