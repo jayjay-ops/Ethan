@@ -85,8 +85,8 @@ if ( r == opp){
 const give = await eco.give(user, cara, value);
 M.reply(`📈 *You won ${value}*`)
 }else{
-const deduct = await eco.deduct(user, cara, value);
-M.reply(`📉 *you lost ${value}*`)
+const deduct = await eco.give(user, cara, value);
+M.reply(`📉 *you won ${value}*`)
 }
 }
 }
