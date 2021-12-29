@@ -30,6 +30,6 @@ run = async (M: ISimplifiedMessage): Promise<void> => {
 const cara = "cara"
 const balance = await eco.balance(user, cara); //Returns wallet, bank, and bankCapacity. Also creates a USer if it doesn't exist.
 
-await M.reply(`👛 Wallet: ⛀${balance.wallet}\n\n 🏦 Bank: ⛁${balance.bank}/${balance.bankCapacity}`);
+await M.reply(`👛 Wallet: 🪙${balance.wallet}\n\n 🏦 Bank: 🪙${balance.bank}/${balance.bankCapacity}`);
 }
 }
