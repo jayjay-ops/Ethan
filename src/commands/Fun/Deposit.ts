@@ -35,6 +35,6 @@ if (M.quoted?.sender) M.mentioned.push(M.quoted.sender)
 const cara = 'cara'
 const deposit = await eco.deposit(user, cara, text);
     if(deposit.noten) return void M.reply('You can\'t deposit what you don\'t have.'); //if user states more than whats in his wallet
-    M.reply(`Deposited ${deposit.amount} to your bank.`)
+    M.reply(`Successfully Deposited 🪙${deposit.amount} to your bank.`)
 }
 }
