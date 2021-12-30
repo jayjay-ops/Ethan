@@ -12,7 +12,7 @@ export default class Command extends BaseCommand {
             description: `gift money to a friend's wallet`,
             category: 'fun',
             usage: `${client.config.prefix}donate [value]`,
-            aliases: ['dn', 'forward', max],
+            aliases: ['dn', 'forward', 'max'],
             baseXp: 10
         })
     }
