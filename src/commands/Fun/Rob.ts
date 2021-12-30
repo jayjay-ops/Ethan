@@ -52,8 +52,8 @@ switch (tpy) {
   await M.reply (' *your victim escaped, no lost nor gain.*')
     break
   case 'rob':
-  const give = await eco.give(user2, cara, balance2.wallet);
   const deduct1 = await eco.deduct(user1, cara, balance2.wallet);
+  const give = await eco.give(user2, cara, balance2.wallet);
   await M.reply('Robbery operation successfully.')
     break
     case 'catch':
