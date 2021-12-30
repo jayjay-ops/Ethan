@@ -10,7 +10,7 @@ export default class Command extends BaseCommand {
         super(client, handler, {
             command: 'donate',
             description: `gift money to a friend's wallet`,
-            category: 'general',
+            category: 'fun',
             usage: `${client.config.prefix}donate [value]`,
             aliases: ['dn', 'forward', max],
             baseXp: 10
